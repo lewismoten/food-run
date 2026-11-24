@@ -1,5 +1,7 @@
 # Food Run
 
+![Food Run: Plan meals. Build a buy list. Stay on a budget.](docs/images/social-preview.png)
+
 Food Run is a small browser app I built to get an idea of what to buy at the grocery store. Give it a spending limit, the kitchen equipment you have, and how much cooking you're willing to do, and it suggests meals, snacks, and drinks for the coming days, then builds a shopping list with an estimated total.
 
 I'm sharing it for anyone who wants to customize it for themselves or play around with the idea.
