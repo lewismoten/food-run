@@ -1,0 +1,939 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Food Run — what to buy and what it costs</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand-lockup">
+          <span class="brand-mark" aria-hidden="true">FR</span>
+          <div>
+            <h1>Food Run</h1>
+            <p>What to buy. What it costs.</p>
+          </div>
+        </div>
+        <span class="header-meta">Your grocery list</span>
+      </div>
+    </header>
+    <main class="wrap">
+      <nav id="tabs" aria-label="Sections">
+        <button data-tab="grocery" class="active">Buy list</button>
+        <button data-tab="inventory">On hand</button>
+        <button data-tab="prices">Prices</button>
+        <button data-tab="recipes">Meals</button>
+        <button data-tab="calendar">Week</button>
+        <button data-tab="dashboard">Overview</button>
+        <button data-tab="backup">Backup</button>
+      </nav>
+      <div class="mobile-navigation">
+        <label for="mobileTab">View</label>
+        <select id="mobileTab" aria-label="Choose section">
+          <option value="grocery">Buy list</option>
+          <option value="inventory">On hand</option>
+          <option value="prices">Prices</option>
+          <option value="recipes">Meals</option>
+          <option value="calendar">Week</option>
+          <option value="dashboard">Overview</option>
+          <option value="backup">Backup</option>
+        </select>
+      </div>
+      <section id="dashboard">
+        <div class="card kickoff-card">
+          <div>
+            <span class="eyebrow">Next up</span>
+            <h2>Get your next buy list</h2>
+            <p>See what to pick up and the estimated total.</p>
+          </div>
+          <button id="goGrocery">Open buy list →</button>
+        </div>
+        <div class="card overview-card">
+          <h2>Your setup</h2>
+          <div id="stats"></div>
+        </div>
+        <details class="card workflow-card" id="workflowDetails" open>
+          <summary>Workflow</summary>
+          <ol class="quick-start">
+            <li>Set what you have in <b>On hand</b>.</li>
+            <li>Check package costs in <b>Prices</b>.</li>
+            <li>Build a <b>Buy list</b> and save it for shopping.</li>
+            <li>Check items as you shop. Confirm only what you bought.</li>
+          </ol>
+          <p class="muted">
+            Everything is saved locally in your browser. Back up your data
+            periodically.
+          </p>
+          <p class="muted">
+            Food Run plans groceries by cost. It is not nutrition or medical
+            advice and does not check allergens. Follow product labels for
+            storage and cooking.
+          </p>
+        </details>
+        <div class="card low-stock-card" id="lowStockCard">
+          <h3>Items running low</h3>
+          <div id="lowStock"></div>
+        </div>
+      </section>
+      <section id="inventory">
+        <div class="card desktop-add-card">
+          <h2>Add food you have</h2>
+          <form id="inventoryForm" class="row">
+            <div class="field">
+              <label
+                >Food name<input name="name" required placeholder="Rice"
+              /></label>
+            </div>
+            <div class="field">
+              <label
+                >Quantity<input
+                  name="qty"
+                  type="number"
+                  min="0"
+                  step="any"
+                  required
+                  value="1"
+              /></label>
+            </div>
+            <div class="field">
+              <label
+                >Unit<select name="unit">
+                  <option>g</option>
+                  <option>kg</option>
+                  <option>oz</option>
+                  <option>lb</option>
+                  <option>each</option>
+                  <option>cup</option>
+                  <option>can</option>
+                  <option>bag</option>
+                  <option>serving</option>
+                  <option>gallon</option>
+                </select></label
+              >
+            </div>
+            <div class="field">
+              <label
+                >Low-stock threshold<input
+                  name="minimum"
+                  type="number"
+                  min="0"
+                  step="any"
+                  value="0"
+              /></label>
+            </div>
+            <div class="field">
+              <label
+                >Storage<select name="storage">
+                  <option value="shelf">Shelf stable</option>
+                  <option value="refrigerated">Refrigerator</option>
+                  <option value="frozen">Freezer</option>
+                </select></label
+              >
+            </div>
+            <label class="checkbox-label"
+              ><input name="needsCooking" type="checkbox" /> Must be
+              cooked</label
+            >
+            <button>Add / combine</button>
+          </form>
+          <p class="muted">
+            Use the same unit consistently for each ingredient across inventory,
+            recipes, and prices (for example, rice in cups or grams). Quantities
+            are not automatically converted.
+          </p>
+        </div>
+        <div class="card desktop-inventory-card">
+          <h3>Food on hand</h3>
+          <div class="scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Food</th>
+                  <th>Quantity</th>
+                  <th>Unit</th>
+                  <th>Low at</th>
+                  <th>Storage / prep</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="inventoryRows"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card mobile-inventory">
+          <div class="mobile-inventory-head">
+            <div>
+              <h2>On hand</h2>
+              <p class="muted">Tap a food to edit it.</p>
+            </div>
+            <button id="openAddFood" type="button">Add food</button>
+          </div>
+          <input
+            id="inventorySearch"
+            type="search"
+            placeholder="Find a food"
+            aria-label="Find a food"
+          />
+          <div id="mobileInventoryList"></div>
+        </div>
+      </section>
+      <section id="prices">
+        <div class="card quick-product-card">
+          <div>
+            <h2>Spot a product?</h2>
+            <p class="muted">
+              Record its price, package size, UPC, and servings.
+            </p>
+          </div>
+          <button type="button" class="open-product-quick">Add product</button>
+        </div>
+        <details class="card">
+          <summary>More price options</summary>
+          <form id="priceForm" class="row">
+            <div class="field">
+              <label
+                >Food<select name="food" id="priceFood" required></select
+              ></label>
+            </div>
+            <div class="field">
+              <label
+                >Package quantity<input
+                  name="qty"
+                  type="number"
+                  min="0.001"
+                  step="any"
+                  value="1"
+                  required
+              /></label>
+            </div>
+            <div class="field">
+              <label
+                >Package price ($, rounded to 10¢)<input
+                  name="price"
+                  type="number"
+                  min="0"
+                  step="any"
+                  required
+              /></label>
+            </div>
+            <div class="field">
+              <label
+                >Date observed<input
+                  name="observedAt"
+                  type="date"
+                  id="priceDate"
+                  required
+              /></label>
+            </div>
+            <div class="field">
+              <label
+                >Product / brand<input name="product" placeholder="Optional"
+              /></label>
+            </div>
+            <label class="checkbox-label"
+              ><input name="estimated" type="checkbox" checked /> Use as a
+              planning estimate</label
+            >
+            <button>Add price</button>
+          </form>
+          <p class="muted">
+            Package quantity is measured in the food's inventory unit. Example:
+            5 lb of potatoes at $4.00 → quantity 5, unit lb.
+          </p>
+        </details>
+        <div class="card">
+          <h3>Price sheet</h3>
+          <p class="muted">
+            The buy list uses package price estimates. Record actual prices
+            separately to track changes over time.
+          </p>
+          <div class="scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Food</th>
+                  <th>Package</th>
+                  <th>Price</th>
+                  <th>Per unit</th>
+                  <th>Storage / prep</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="priceRows"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Price history</h3>
+          <label class="chart-picker"
+            >Food<select id="chartFood"></select
+          ></label>
+          <label class="chart-picker"
+            >Product<select id="chartProduct">
+              <option value="">All products</option>
+            </select></label
+          >
+          <div id="priceChart" class="price-chart"></div>
+        </div>
+      </section>
+      <section id="recipes">
+        <div class="card">
+          <div class="meal-list-head">
+            <div>
+              <h2>Meals</h2>
+              <p class="muted" id="mealCount"></p>
+            </div>
+            <button type="button" id="addMeal">Add meal</button>
+          </div>
+          <div class="meal-filters">
+            <input
+              id="mealSearch"
+              type="search"
+              placeholder="Find a meal"
+              aria-label="Find a meal"
+            />
+            <select id="mealTypeFilter" aria-label="Meal type">
+              <option value="">All meal types</option>
+              <option value="breakfast">Breakfast</option>
+              <option value="lunch">Lunch</option>
+              <option value="dinner">Dinner</option>
+              <option value="any">Any meal</option>
+              <option value="snack">Snack</option>
+              <option value="drink">Drink</option>
+            </select>
+            <select id="mealPrepFilter" aria-label="Preparation">
+              <option value="">Any preparation</option>
+              <option value="0">No prep</option>
+              <option value="1">Easy</option>
+              <option value="2">Cooking</option>
+              <option value="3">Skilled</option>
+            </select>
+          </div>
+          <ul id="mealList" class="meal-list"></ul>
+        </div>
+      </section>
+      <section id="calendar">
+        <div class="card">
+          <div class="row">
+            <div>
+              <h2>Your week</h2>
+              <p class="muted">
+                Choose meals or open Snacks for three more slots. Ideas are
+                tentative until a saved grocery list is purchased; you can also
+                assign meals manually.
+              </p>
+            </div>
+            <div class="field">
+              <label
+                >Week starting Monday<input type="date" id="weekStart"
+              /></label>
+            </div>
+            <button id="prevWeek" class="secondary">← Previous</button>
+            <button id="nextWeek" class="secondary">Next →</button>
+          </div>
+        </div>
+        <div class="card"><div class="calendar" id="calendarGrid"></div></div>
+      </section>
+      <section id="grocery" class="active">
+        <div class="card">
+          <h2>What should I buy?</h2>
+          <button type="button" class="secondary open-product-quick">
+            Add a product
+          </button>
+          <p class="muted planner-intro">
+            Set your spending limit to get a grocery estimate. Food on hand
+            updates when you confirm a purchase.
+          </p>
+          <div class="row planner-core">
+            <div class="field">
+              <label>Starting<input id="planStartDate" type="date" /></label>
+            </div>
+            <div class="field">
+              <label
+                >Days to cover<input
+                  id="days"
+                  type="number"
+                  min="1"
+                  max="365"
+                  value="7"
+              /></label>
+            </div>
+            <div class="field">
+              <label
+                >Spending limit ($)<input
+                  id="budget"
+                  type="number"
+                  min="0"
+                  step="0.01"
+                  value="40"
+                  required
+              /></label>
+            </div>
+            <div class="field">
+              <label for="mealSize">Meal size</label>
+              <select id="mealSize">
+                <option value="small">Small (¾ portion)</option>
+                <option value="medium" selected>Medium (1 portion)</option>
+                <option value="large">Large (2 portions)</option>
+              </select>
+            </div>
+          </div>
+          <details class="planner-options" id="plannerOptions" open>
+            <summary>Food settings</summary>
+            <div class="row">
+              <div class="capability-fields">
+                <b>What you have available</b>
+                <label class="checkbox-label"
+                  ><input id="hasFridge" type="checkbox" checked />
+                  Refrigerator</label
+                >
+                <label class="checkbox-label"
+                  ><input id="hasFreezer" type="checkbox" checked />
+                  Freezer</label
+                >
+                <label class="checkbox-label"
+                  ><input id="hasMicrowave" type="checkbox" checked />
+                  Microwave</label
+                >
+                <label class="checkbox-label"
+                  ><input id="hasHotplate" type="checkbox" checked /> Hotplate /
+                  stovetop</label
+                >
+                <label class="checkbox-label"
+                  ><input id="hasOven" type="checkbox" checked /> Oven</label
+                >
+                <label
+                  class="checkbox-label"
+                  title="Salt, pepper, common spices, soy sauce, hot sauce, ketchup, mayonnaise, barbecue sauce, cooking oil, and sugar"
+                  ><input id="haveBasics" type="checkbox" /> I have the basics
+                  (spices, condiments, oil, sugar)</label
+                >
+              </div>
+              <div class="field preference-field">
+                <label for="tastePriority"
+                  >Taste preference:
+                  <span id="tasteValue">50% toward taste</span></label
+                >
+                <input
+                  id="tastePriority"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="50"
+                />
+                <div class="range-ends">
+                  <span>Lower cost</span><span>Favor taste</span>
+                </div>
+              </div>
+              <div class="field preference-field">
+                <label for="spicePreference"
+                  >Spice preference: <span id="spiceValue">Mild</span></label
+                >
+                <input
+                  id="spicePreference"
+                  type="range"
+                  min="0"
+                  max="5"
+                  step="1"
+                  value="0"
+                />
+                <div class="range-ends"><span>Mild</span><span>Hot</span></div>
+              </div>
+              <div class="field preference-field">
+                <label for="prepLevel"
+                  >Preparation: <span id="prepValue">Cooking</span></label
+                >
+                <input
+                  id="prepLevel"
+                  type="range"
+                  min="0"
+                  max="3"
+                  step="1"
+                  value="2"
+                />
+                <div class="range-ends">
+                  <span>No prep</span><span>Skilled</span>
+                </div>
+              </div>
+              <div class="field preference-field">
+                <label for="varietyPreference"
+                  >Variety: <span id="varietyValue">Some</span></label
+                >
+                <input
+                  id="varietyPreference"
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="50"
+                />
+                <div class="range-ends">
+                  <span>Repeat cheapest</span><span>Most variety</span>
+                </div>
+              </div>
+            </div>
+          </details>
+          <button id="calculate">Show what to buy</button>
+        </div>
+        <div class="card" id="draftCard">
+          <h3>What to buy</h3>
+          <div id="planSummary"></div>
+          <div class="scroll">
+            <table id="draftTable">
+              <thead>
+                <tr>
+                  <th>Buy</th>
+                  <th>Need</th>
+                  <th>Packages</th>
+                  <th>Est. cost</th>
+                </tr>
+              </thead>
+              <tbody id="groceryRows"></tbody>
+            </table>
+          </div>
+          <div id="groceryTotal" class="grocery-total" aria-live="polite"></div>
+          <p class="muted draft-help">
+            Package prices are rounded to the nearest 10¢. Save the draft to
+            check items while shopping. Food on hand updates after purchase
+            confirmation.
+          </p>
+          <button id="saveList">Save buy list</button>
+          <button id="newDraft" class="secondary">Start a new list</button>
+          <button id="copyList" class="secondary">Copy list</button>
+        </div>
+        <div class="card" id="savedRunsCard">
+          <div class="saved-runs-head">
+            <h3>Saved lists</h3>
+            <button type="button" class="open-product-quick">
+              Add product
+            </button>
+          </div>
+          <div id="savedLists"></div>
+        </div>
+        <details class="card option-card" id="coveragePanel" open>
+          <summary>Meals, snacks, and drinks by day</summary>
+          <div id="coverage"></div>
+        </details>
+      </section>
+      <section id="backup">
+        <div class="card">
+          <h2>Save your data</h2>
+          <p>
+            Export your complete IndexedDB data as JSON. Save it somewhere
+            outside this browser. Importing replaces all existing app data.
+          </p>
+          <div class="row">
+            <button id="export">Export JSON backup</button>
+            <label class="btn import-label"
+              >Import JSON backup<input
+                id="import"
+                type="file"
+                accept="application/json,.json"
+            /></label>
+            <button id="sample" class="secondary">Load example data</button>
+            <button id="clear" class="danger">Reset to starter data</button>
+          </div>
+        </div>
+        <div class="card">
+          <h2>USB folder sync</h2>
+          <p>
+            Connect a folder on a USB drive. The app keeps a JSON snapshot
+            there. It checks for changes while this page is open; if both copies
+            changed, it asks before replacing anything.
+          </p>
+          <div class="row">
+            <button id="connectUsb">Choose USB folder</button>
+            <button id="syncNow" class="secondary">Sync now</button>
+            <button id="disconnectUsb" class="secondary">Disconnect</button>
+          </div>
+          <p id="syncStatus" class="muted" role="status">
+            No folder connected.
+          </p>
+          <p class="muted">
+            Requires a supported Chromium browser and HTTPS or localhost. The
+            browser may ask you to grant folder access again. No background sync
+            when the page is closed.
+          </p>
+        </div>
+      </section>
+    </main>
+    <dialog
+      id="foodEditDialog"
+      class="food-dialog"
+      aria-labelledby="foodEditName"
+    >
+      <form id="foodEditForm">
+        <div class="dialog-head">
+          <h2 id="foodEditName">Edit food</h2>
+          <button
+            type="button"
+            class="secondary dialog-close"
+            data-close-dialog
+            aria-label="Close"
+          >
+            ×
+          </button>
+        </div>
+        <input type="hidden" name="foodId" />
+        <div class="dialog-grid">
+          <label
+            >Quantity on hand<input
+              name="qty"
+              type="number"
+              min="0"
+              step="any"
+              required
+          /></label>
+          <label
+            >Low at<input
+              name="minimum"
+              type="number"
+              min="0"
+              step="any"
+              required
+          /></label>
+          <label
+            >Storage<select name="storage">
+              <option value="shelf">Shelf stable</option>
+              <option value="refrigerated">Refrigerator</option>
+              <option value="frozen">Freezer</option>
+              <option value="unknown">Review storage</option>
+            </select></label
+          >
+          <label class="checkbox-label"
+            ><input name="needsCooking" type="checkbox" /> Cook before
+            eating</label
+          >
+        </div>
+        <div class="dialog-actions">
+          <button id="deleteFoodMobile" type="button" class="danger">
+            Delete
+          </button>
+          <button type="button" class="secondary" data-close-dialog>
+            Cancel
+          </button>
+          <button type="submit">Save</button>
+        </div>
+      </form>
+    </dialog>
+    <dialog
+      id="addFoodDialog"
+      class="food-dialog"
+      aria-labelledby="addFoodTitle"
+    >
+      <div class="dialog-head">
+        <h2 id="addFoodTitle">Add food</h2>
+        <button
+          type="button"
+          class="secondary dialog-close"
+          data-close-dialog
+          aria-label="Close"
+        >
+          ×
+        </button>
+      </div>
+      <form id="mobileInventoryForm" class="row"></form>
+    </dialog>
+    <dialog
+      id="productDialog"
+      class="food-dialog product-dialog"
+      aria-labelledby="productDialogTitle"
+    >
+      <form id="productQuickForm">
+        <div class="dialog-head">
+          <h2 id="productDialogTitle">Product</h2>
+          <button
+            type="button"
+            class="secondary dialog-close"
+            data-close-dialog
+            aria-label="Close"
+          >
+            ×
+          </button>
+        </div>
+        <div class="dialog-grid">
+          <label
+            >Food type<select name="foodId" id="quickFood" required></select
+          ></label>
+          <div id="quickNewFood" class="dialog-wide dialog-grid" hidden>
+            <label
+              >New food type<input name="newFoodName" placeholder="Egg noodles"
+            /></label>
+            <label
+              >Track in<select name="newFoodUnit">
+                <option value="oz">oz</option>
+                <option value="lb">lb</option>
+                <option value="each">each</option>
+                <option value="can">can</option>
+                <option value="cup">cup</option>
+                <option value="g">g</option>
+              </select></label
+            >
+            <label
+              >Storage<select name="newFoodStorage">
+                <option value="shelf">Shelf</option>
+                <option value="refrigerated">Refrigerator</option>
+                <option value="frozen">Freezer</option>
+              </select></label
+            >
+            <label class="checkbox-label"
+              ><input name="newFoodNeedsCooking" type="checkbox" />Needs
+              cooking</label
+            >
+          </div>
+          <label>Brand<input name="brand" placeholder="Optional" /></label>
+          <label
+            >Product name<input
+              name="product"
+              required
+              placeholder="Butter, salted"
+          /></label>
+          <label
+            >UPC / EAN<input
+              name="upc"
+              inputmode="numeric"
+              pattern="[0-9]{8,14}"
+              placeholder="Type the code"
+          /></label>
+          <label
+            >Price ($, rounded to 10¢)<input
+              name="price"
+              type="number"
+              min="0"
+              step="any"
+              required
+          /></label>
+          <label
+            >Package amount<input
+              name="packageAmount"
+              type="number"
+              min="0.001"
+              step="any"
+              required
+              value="1"
+          /></label>
+          <label
+            >Package unit<select name="packageUnit" id="quickPackageUnit">
+              <option value="oz">oz</option>
+              <option value="lb">lb</option>
+              <option value="g">g</option>
+              <option value="kg">kg</option>
+              <option value="each">each</option>
+              <option value="can">can</option>
+              <option value="cup">cup</option>
+              <option value="gallon">gallon</option>
+              <option value="serving">serving</option>
+            </select></label
+          >
+          <label
+            >Servings in package<input
+              name="servingsPerPackage"
+              type="number"
+              min="0.01"
+              step="any"
+              placeholder="From label"
+          /></label>
+          <label
+            >Serving size<input
+              name="servingLabel"
+              placeholder="e.g. 2 crackers"
+          /></label>
+          <label
+            >Date seen<input name="observedAt" type="date" required
+          /></label>
+          <label class="checkbox-label">
+            <input name="estimated" type="checkbox" /> Use as a planning
+            estimate
+          </label>
+          <label
+            >Add to list<select name="listTarget" id="quickListTarget"></select
+          ></label>
+          <label id="quickListPackagesField" hidden
+            >Packages to add<input
+              name="listPackages"
+              type="number"
+              min="1"
+              step="1"
+              value="1"
+              required
+          /></label>
+          <div class="dialog-wide photo-actions">
+            <label class="btn secondary"
+              >Take photo<input
+                id="quickCamera"
+                type="file"
+                accept="image/*"
+                capture="environment"
+                hidden /></label
+            ><label class="btn secondary"
+              >Choose photo<input
+                id="quickPhoto"
+                type="file"
+                accept="image/*"
+                hidden
+            /></label>
+          </div>
+          <div id="quickPhotoPreview" class="dialog-wide" hidden></div>
+          <p
+            id="quickCost"
+            class="dialog-wide quick-cost"
+            aria-live="polite"
+          ></p>
+          <p id="quickMatches" class="dialog-wide muted"></p>
+        </div>
+        <div class="dialog-actions">
+          <button type="button" class="secondary" data-close-dialog>
+            Cancel</button
+          ><button type="submit">Save product</button>
+        </div>
+      </form>
+    </dialog>
+    <dialog
+      id="mealDialog"
+      class="food-dialog meal-dialog"
+      aria-labelledby="mealDialogTitle"
+    >
+      <div class="dialog-head">
+        <h2 id="mealDialogTitle">Meal</h2>
+        <button
+          type="button"
+          class="secondary dialog-close"
+          data-close-dialog
+          aria-label="Close"
+        >
+          ×
+        </button>
+      </div>
+      <div id="mealView"></div>
+      <form id="mealForm" hidden>
+        <input type="hidden" name="mealId" />
+        <div class="dialog-grid">
+          <label class="dialog-wide"
+            >Meal name<input name="name" required placeholder="Rice and beans"
+          /></label>
+          <label
+            >Meal type<select name="mealType">
+              <option value="breakfast">Breakfast</option>
+              <option value="lunch">Lunch</option>
+              <option value="dinner">Dinner</option>
+              <option value="any">Any meal</option>
+              <option value="snack">Snack</option>
+              <option value="drink">Drink</option>
+            </select></label
+          >
+          <label>Heating<select name="heatMethod"></select></label>
+          <fieldset class="dialog-wide drink-options" id="drinkOptions" hidden>
+            <legend>Serve with</legend>
+            <label class="checkbox-label"
+              ><input type="checkbox" name="drinkFor" value="breakfast" />
+              Breakfast</label
+            >
+            <label class="checkbox-label"
+              ><input type="checkbox" name="drinkFor" value="lunch" />
+              Lunch</label
+            >
+            <label class="checkbox-label"
+              ><input type="checkbox" name="drinkFor" value="dinner" />
+              Dinner</label
+            >
+            <label class="checkbox-label"
+              ><input type="checkbox" name="repeats" /> Can repeat every
+              day</label
+            >
+          </fieldset>
+          <label
+            >Servings per batch<input
+              name="servings"
+              type="number"
+              min="1"
+              step="1"
+              value="1"
+              required
+          /></label>
+          <label
+            >Taste rating (1–5)<input
+              name="taste"
+              type="number"
+              min="1"
+              max="5"
+              step="1"
+              value="3"
+              required
+          /></label>
+          <label
+            >Heat level (0–5)<input
+              name="spice"
+              type="number"
+              min="0"
+              max="5"
+              step="1"
+              value="0"
+          /></label>
+          <label
+            >Preparation<select name="prep">
+              <option value="0">No prep</option>
+              <option value="1">Easy</option>
+              <option value="2">Cooking</option>
+              <option value="3">Skilled</option>
+            </select></label
+          >
+          <label
+            >Recipe link<input
+              name="link"
+              type="url"
+              placeholder="https://… (optional)"
+          /></label>
+          <label class="dialog-wide"
+            >Directions<textarea
+              name="directions"
+              required
+              placeholder="Write the steps for one batch"
+            ></textarea>
+          </label>
+          <fieldset class="dialog-wide ingredient-editor">
+            <legend>Ingredients for the whole batch</legend>
+            <div id="mealIngredientRows"></div>
+            <button type="button" class="secondary" id="addIngredientRow">
+              Add ingredient
+            </button>
+          </fieldset>
+        </div>
+        <div class="dialog-actions">
+          <button type="button" class="danger" id="deleteMeal">Delete</button>
+          <button type="button" class="secondary" id="cancelMealEdit">
+            Cancel</button
+          ><button type="submit">Save meal</button>
+        </div>
+      </form>
+    </dialog>
+    <div id="notice" role="status"></div>
+    <script src="src/core/state.js"></script>
+    <script src="src/core/helpers.js"></script>
+    <script src="src/core/meal-slots.js"></script>
+    <script src="src/data/starter.js"></script>
+    <script src="src/ui/toast.js"></script>
+    <script src="src/data/db.js"></script>
+    <script src="src/core/lookups.js"></script>
+    <script src="src/products/product.js"></script>
+    <script src="src/products/photo.js"></script>
+    <script src="src/ui/render.js"></script>
+    <script src="src/ui/price-chart.js"></script>
+    <script src="src/ui/calendar.js"></script>
+    <script src="src/planner/planner.js"></script>
+    <script src="src/ui/plan-view.js"></script>
+    <script src="src/meals/meal-list.js"></script>
+    <script src="src/events/navigation.js"></script>
+    <script src="src/meals/meal-dialog.js"></script>
+    <script src="src/events/forms.js"></script>
+    <script src="src/events/delegated.js"></script>
+    <script src="src/events/week.js"></script>
+    <script src="src/planner/settings.js"></script>
+    <script src="src/lists/saved-lists.js"></script>
+    <script src="src/sync/folder-sync.js"></script>
+    <script src="src/backup/backup.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5709 @@
+[
+  {
+    "id": "meal-microwave-banana-oats",
+    "name": "Microwave banana oats",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Mix oats with enough water to cover in a microwave-safe bowl. Microwave in short intervals until soft, then stir in sliced banana and peanut butter.",
+    "ingredients": [
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Bananas",
+        "unit": "lb",
+        "qty": 0.3
+      },
+      {
+        "name": "Peanut butter",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-no-cook-banana-oat-bowl",
+    "name": "No-cook banana oat bowl",
+    "mealType": "breakfast",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Use oats labeled suitable for an uncooked preparation. Mix them with water until moistened. Add sliced banana and peanut butter. Eat promptly.",
+    "ingredients": [
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 1.5
+      },
+      {
+        "name": "Bananas",
+        "unit": "lb",
+        "qty": 0.3
+      },
+      {
+        "name": "Peanut butter",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-microwave-eggs-and-potato",
+    "name": "Microwave eggs and potato",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Pierce the potato and microwave until tender. Beat eggs in a microwave-safe mug and cook in short bursts, stirring until fully set. Season with salt and pepper.",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Potatoes",
+        "unit": "lb",
+        "qty": 0.4
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.03
+      },
+      {
+        "name": "Black pepper",
+        "unit": "oz",
+        "qty": 0.02
+      }
+    ]
+  },
+  {
+    "id": "meal-tuna-and-apple-plate",
+    "name": "Tuna and apple plate",
+    "mealType": "lunch",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Open and drain the tuna. Slice the apple and serve with peanut butter. Eat the opened tuna promptly.",
+    "ingredients": [
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Gala apples",
+        "unit": "lb",
+        "qty": 0.3
+      },
+      {
+        "name": "Peanut butter",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-cold-bean-and-tuna-bowl",
+    "name": "Cold bean and tuna bowl",
+    "mealType": "lunch",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Open and drain both cans. Mix the beans and tuna in a bowl, season if available, and eat promptly.",
+    "ingredients": [
+      {
+        "name": "Canned beans",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-cold-bean-and-tomato-bowl",
+    "name": "Cold bean and tomato bowl",
+    "mealType": "dinner",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Open and drain the beans. Mix with the tomatoes, season if available, and eat the opened cans promptly.",
+    "ingredients": [
+      {
+        "name": "Canned beans",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Canned tomatoes",
+        "unit": "can",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-microwave-potato-and-beans",
+    "name": "Microwave potato and beans",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Pierce and microwave the potato until tender. Heat the drained beans with the barbecue sauce in a microwave-safe bowl and serve over the potato.",
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "unit": "lb",
+        "qty": 0.5
+      },
+      {
+        "name": "Canned beans",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Barbecue sauce",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-hotplate-rice-and-beans",
+    "name": "Hotplate rice and beans",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Soak the dry beans, then boil them until fully tender. Cook the rice separately. Heat the tomatoes and combine everything.",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "unit": "lb",
+        "qty": 0.15
+      },
+      {
+        "name": "Dry beans",
+        "unit": "lb",
+        "qty": 0.15
+      },
+      {
+        "name": "Canned tomatoes",
+        "unit": "can",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-hotplate-lentil-tomato-stew",
+    "name": "Hotplate lentil tomato stew",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Rinse lentils and chop carrots. Simmer with the tomatoes and enough water until lentils and carrots are tender.",
+    "ingredients": [
+      {
+        "name": "Lentils",
+        "unit": "lb",
+        "qty": 0.15
+      },
+      {
+        "name": "Canned tomatoes",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Carrots",
+        "unit": "lb",
+        "qty": 0.2
+      }
+    ]
+  },
+  {
+    "id": "meal-hotplate-pasta-and-vegetables",
+    "name": "Hotplate pasta and vegetables",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Boil the pasta. Cook the frozen vegetables and heat the tomatoes in a pan. Season with Italian seasoning, mix, and top with parmesan.",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "unit": "lb",
+        "qty": 0.125
+      },
+      {
+        "name": "Frozen vegetables",
+        "unit": "oz",
+        "qty": 6
+      },
+      {
+        "name": "Canned tomatoes",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Italian seasoning",
+        "unit": "oz",
+        "qty": 0.03
+      },
+      {
+        "name": "Grated parmesan cheese",
+        "unit": "oz",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-oven-corn-muffins-and-eggs",
+    "name": "Oven corn muffins and eggs",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Prepare the muffin mix with the milk and one egg, following the package's oven directions. Bake until done. Crack the second egg into a lightly greased oven-safe ramekin and bake until fully set; serve together.",
+    "ingredients": [
+      {
+        "name": "Corn muffin mix",
+        "unit": "oz",
+        "qty": 4.25
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.03
+      }
+    ]
+  },
+  {
+    "id": "meal-soup-and-crackers",
+    "name": "Soup and crackers",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Empty one can of condensed soup into a microwave-safe bowl or saucepan. Add one can of water and heat according to the label until hot. Serve with 2 oz of crackers.",
+    "ingredients": [
+      {
+        "name": "Condensed chicken noodle soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": "meal-two-bean-and-cheese-burritos",
+    "name": "Two bean and cheese burritos",
+    "mealType": "any",
+    "heatMethods": [
+      "microwave",
+      "oven"
+    ],
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Keep frozen until ready to eat. Heat two burritos in a microwave or oven using the package directions; make sure both are hot throughout.",
+    "ingredients": [
+      {
+        "name": "Frozen bean and cheese burritos",
+        "unit": "each",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": "meal-pepperoni-pizza-portion",
+    "name": "Pepperoni pizza portion",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 5,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza from frozen according to the package directions. Eat about one third, sprinkled with red pepper flakes to taste. Refrigerate the rest promptly for a later meal, or freeze portions once cooled.",
+    "ingredients": [
+      {
+        "name": "Frozen pepperoni pizza",
+        "unit": "each",
+        "qty": 0.3333333333
+      },
+      {
+        "name": "Red pepper flakes",
+        "unit": "oz",
+        "qty": 0.02
+      }
+    ]
+  },
+  {
+    "id": "meal-buttered-egg-noodles",
+    "name": "Buttered egg noodles",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Boil noodles until tender. Drain and toss with butter, salt, and pepper.",
+    "ingredients": [
+      {
+        "name": "Egg noodles",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.4
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.03
+      },
+      {
+        "name": "Black pepper",
+        "unit": "oz",
+        "qty": 0.02
+      }
+    ]
+  },
+  {
+    "id": "meal-soy-egg-rice",
+    "name": "Soy egg rice",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook rice. Cook egg until fully set, warm vegetables, and stir together with soy sauce.",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "unit": "lb",
+        "qty": 0.18
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Frozen vegetables",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Soy sauce",
+        "unit": "oz",
+        "qty": 0.35
+      }
+    ]
+  },
+  {
+    "id": "meal-spicy-soy-rice",
+    "name": "Spicy soy rice",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 3,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook rice and warm vegetables. Stir in soy sauce and hot sauce to taste.",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "unit": "lb",
+        "qty": 0.18
+      },
+      {
+        "name": "Frozen vegetables",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Soy sauce",
+        "unit": "oz",
+        "qty": 0.35
+      },
+      {
+        "name": "Hot sauce",
+        "unit": "oz",
+        "qty": 0.15
+      }
+    ]
+  },
+  {
+    "id": "meal-kidney-bean-chili",
+    "name": "Kidney bean chili",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 2,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Soften chopped onion in a pan. Add beans, tomato sauce, chili powder, cumin, and a splash of water. Simmer until hot.",
+    "ingredients": [
+      {
+        "name": "Kidney beans",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.6
+      },
+      {
+        "name": "Onions",
+        "unit": "lb",
+        "qty": 0.15
+      },
+      {
+        "name": "Chili powder",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Ground cumin",
+        "unit": "oz",
+        "qty": 0.03
+      }
+    ]
+  },
+  {
+    "id": "meal-lentil-chili",
+    "name": "Lentil chili",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 3,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook lentils until tender. Simmer with tomato sauce, onion, chili powder, and cumin until thick.",
+    "ingredients": [
+      {
+        "name": "Lentils",
+        "unit": "lb",
+        "qty": 0.2
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.6
+      },
+      {
+        "name": "Onions",
+        "unit": "lb",
+        "qty": 0.15
+      },
+      {
+        "name": "Chili powder",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Ground cumin",
+        "unit": "oz",
+        "qty": 0.03
+      }
+    ]
+  },
+  {
+    "id": "meal-chili-mac",
+    "name": "Chili mac",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 2,
+    "taste": 5,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook macaroni and drain. Heat canned chili separately, combine, and melt cheddar over the top.",
+    "ingredients": [
+      {
+        "name": "Elbow macaroni",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Canned chili",
+        "unit": "can",
+        "qty": 0.75
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 0.75
+      }
+    ]
+  },
+  {
+    "id": "meal-chili-baked-potato",
+    "name": "Chili baked potato",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "spice": 2,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Pierce potato and microwave until tender. Heat chili until steaming, split potato, and spoon chili over it.",
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "unit": "lb",
+        "qty": 0.5
+      },
+      {
+        "name": "Canned chili",
+        "unit": "can",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-cheesy-tomato-pasta",
+    "name": "Cheesy tomato pasta",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook pasta. Warm tomato sauce with garlic powder and Italian seasoning; mix with pasta and melt cheddar on top.",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "unit": "lb",
+        "qty": 0.2
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 0.7
+      },
+      {
+        "name": "Garlic powder",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Italian seasoning",
+        "unit": "oz",
+        "qty": 0.03
+      }
+    ]
+  },
+  {
+    "id": "meal-hot-sauce-egg-noodles",
+    "name": "Hot sauce egg noodles",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 4,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook egg noodles and drain. Toss with butter and a little hot sauce; add more only after tasting.",
+    "ingredients": [
+      {
+        "name": "Egg noodles",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.3
+      },
+      {
+        "name": "Hot sauce",
+        "unit": "oz",
+        "qty": 0.2
+      }
+    ]
+  },
+  {
+    "id": "meal-tuna-tomato-macaroni",
+    "name": "Tuna tomato macaroni",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 1,
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook macaroni. Heat tomato sauce, stir in drained tuna, and combine with pasta.",
+    "ingredients": [
+      {
+        "name": "Elbow macaroni",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-bean-corn-salsa-bowl",
+    "name": "Bean corn salsa bowl",
+    "mealType": "lunch",
+    "heatMethods": [],
+    "spice": 1,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Drain beans and corn. Mix with salsa; eat promptly or refrigerate leftovers.",
+    "ingredients": [
+      {
+        "name": "Canned beans",
+        "unit": "can",
+        "qty": 0.75
+      },
+      {
+        "name": "Canned corn",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Salsa",
+        "unit": "oz",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": "meal-egg-and-cheese-noodles",
+    "name": "Egg and cheese noodles",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 5,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook noodles. Scramble egg until set, then mix with noodles and cheddar until melted.",
+    "ingredients": [
+      {
+        "name": "Egg noodles",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 0.7
+      }
+    ]
+  },
+  {
+    "id": "meal-turkey-chili",
+    "name": "Turkey chili",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 3,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the ground turkey to 165 °F using a food thermometer. Add kidney beans, tomato sauce, chili powder, and onion; simmer until hot.",
+    "ingredients": [
+      {
+        "name": "Ground turkey",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Kidney beans",
+        "unit": "can",
+        "qty": 0.6
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Chili powder",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Onions",
+        "unit": "lb",
+        "qty": 0.1
+      }
+    ]
+  },
+  {
+    "id": "meal-jalapeno-chili-rice",
+    "name": "Jalapeño chili rice",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 5,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook rice. Heat chili and chopped jalapeños, then serve over rice with cheddar.",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "unit": "lb",
+        "qty": 0.18
+      },
+      {
+        "name": "Canned chili",
+        "unit": "can",
+        "qty": 0.75
+      },
+      {
+        "name": "Jalapeños",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-bean-and-tomato-chili-soup",
+    "name": "Bean and tomato chili soup",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 1,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Simmer beans, tomato sauce, chili powder, and 1 cup water until hot. Thin with more water if needed.",
+    "ingredients": [
+      {
+        "name": "Canned beans",
+        "unit": "can",
+        "qty": 0.75
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Chili powder",
+        "unit": "oz",
+        "qty": 0.08
+      },
+      {
+        "name": "Onions",
+        "unit": "lb",
+        "qty": 0.1
+      }
+    ]
+  },
+  {
+    "id": "meal-corn-and-kidney-bean-chili-soup",
+    "name": "Corn and kidney bean chili soup",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 2,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Drain corn and kidney beans. Simmer with tomato sauce, chili powder, and 1 cup water until fully heated.",
+    "ingredients": [
+      {
+        "name": "Canned corn",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Kidney beans",
+        "unit": "can",
+        "qty": 0.75
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Chili powder",
+        "unit": "oz",
+        "qty": 0.1
+      }
+    ]
+  },
+  {
+    "id": "meal-turkey-chili-soup",
+    "name": "Turkey chili soup",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 3,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the ground turkey to 165 °F using a food thermometer. Simmer with beans, tomato sauce, chili powder, cumin, and 1 cup water until hot.",
+    "ingredients": [
+      {
+        "name": "Ground turkey",
+        "unit": "lb",
+        "qty": 0.2
+      },
+      {
+        "name": "Kidney beans",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Chili powder",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Ground cumin",
+        "unit": "oz",
+        "qty": 0.03
+      }
+    ]
+  },
+  {
+    "id": "meal-tomato-soup-and-crackers",
+    "name": "Tomato soup and crackers",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the soup with water according to its package directions. Serve with crackers.",
+    "ingredients": [
+      {
+        "name": "Condensed tomato soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-minestrone-and-orange",
+    "name": "Minestrone and orange",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the soup according to the package directions. Peel the orange and serve on the side.",
+    "ingredients": [
+      {
+        "name": "Canned minestrone",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Oranges",
+        "unit": "lb",
+        "qty": 0.4
+      }
+    ]
+  },
+  {
+    "id": "meal-egg-and-broccoli-ramen",
+    "name": "Egg and broccoli ramen",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the noodles and broccoli as directed on their packages. Cook the egg separately until the white and yolk are firm, then add it to the bowl.",
+    "ingredients": [
+      {
+        "name": "Instant ramen packets",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Frozen broccoli",
+        "unit": "oz",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": "meal-cup-noodles-and-peanuts",
+    "name": "Cup noodles and peanuts",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat water on the stovetop and prepare the noodle cup according to its label. Serve the peanuts on the side.",
+    "ingredients": [
+      {
+        "name": "Instant noodle cups",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Roasted peanuts",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-soy-rice-noodles-with-broccoli",
+    "name": "Soy rice noodles with broccoli",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Prepare the rice noodles and broccoli according to their packages. Drain and toss with soy sauce.",
+    "ingredients": [
+      {
+        "name": "Rice noodles",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Frozen broccoli",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Soy sauce",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-refried-bean-tacos",
+    "name": "Refried bean tacos",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Warm the beans and tortillas using their package directions. Fill two tortillas with beans, cheddar, and salsa.",
+    "ingredients": [
+      {
+        "name": "Flour tortillas",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Canned refried beans",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Salsa",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-spaghetti-with-tomato-sauce",
+    "name": "Spaghetti with tomato sauce",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the spaghetti as directed on the package. Warm the tomato sauce with the Italian seasoning, then toss it with the drained pasta and top with parmesan.",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Italian seasoning",
+        "unit": "oz",
+        "qty": 0.03
+      },
+      {
+        "name": "Grated parmesan cheese",
+        "unit": "oz",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-cheese-pizza-and-side-salad",
+    "name": "Cheese pizza and side salad",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza according to its package directions. Serve a quarter with greens and dressing. Follow the package directions for storing leftovers.",
+    "ingredients": [
+      {
+        "name": "Frozen cheese pizza",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Bagged salad greens",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-tv-dinner-and-fruit-cup",
+    "name": "Chicken TV dinner and fruit cup",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Choose a microwaveable dinner and follow the heating and standing directions on the package. Serve with a fruit cup.",
+    "ingredients": [
+      {
+        "name": "Frozen chicken TV dinner",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Fruit cups",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-lasagna-and-broccoli",
+    "name": "Lasagna and broccoli",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the lasagna and broccoli separately according to their microwave directions.",
+    "ingredients": [
+      {
+        "name": "Frozen single-serve lasagna",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Frozen broccoli",
+        "unit": "oz",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-nuggets-and-fries",
+    "name": "Chicken nuggets and fries",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the nuggets and fries according to their separate package directions. Serve with ketchup.",
+    "ingredients": [
+      {
+        "name": "Frozen chicken nuggets",
+        "unit": "oz",
+        "qty": 5
+      },
+      {
+        "name": "Frozen french fries",
+        "unit": "oz",
+        "qty": 4
+      },
+      {
+        "name": "Ketchup",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-sweet-potato-with-refried-beans",
+    "name": "Sweet potato with refried beans",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Scrub and pierce the sweet potato, then microwave it in a suitable dish until tender. Prepare the beans according to the label and spoon over the split potato. Sprinkle with paprika.",
+    "ingredients": [
+      {
+        "name": "Sweet potatoes",
+        "unit": "lb",
+        "qty": 0.5
+      },
+      {
+        "name": "Canned refried beans",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Paprika",
+        "unit": "oz",
+        "qty": 0.03
+      }
+    ]
+  },
+  {
+    "id": "meal-tuna-and-tomato-salad",
+    "name": "Tuna and tomato salad",
+    "mealType": "lunch",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Drain the tuna. Prepare the greens and tomatoes according to their labels, then toss with the tuna, dressing, and a splash of lemon juice.",
+    "ingredients": [
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Bagged salad greens",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Cherry tomatoes",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Bottled lemon juice",
+        "unit": "oz",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-fruit-and-nut-bowl",
+    "name": "Fruit and nut bowl",
+    "mealType": "breakfast",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Peel the orange and drain the peaches. Cut the fruit into bite-size pieces and top with mixed nuts.",
+    "ingredients": [
+      {
+        "name": "Oranges",
+        "unit": "lb",
+        "qty": 0.4
+      },
+      {
+        "name": "Canned peaches",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Mixed nuts",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-bean-cabbage-and-carrot-stew",
+    "name": "Bean, cabbage, and carrot stew",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Prepare the dry beans according to their package. Add chopped cabbage and carrots to the cooked beans and simmer with water or broth until the vegetables are tender.",
+    "ingredients": [
+      {
+        "name": "Dry beans",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Cabbage",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Carrots",
+        "unit": "lb",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-cabbage-and-peanut-rice-noodles",
+    "name": "Cabbage and peanut rice noodles",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the rice noodles as directed. Sauté shredded cabbage in a little water until tender, then toss with the noodles, soy sauce, chopped peanuts, and a pinch of red pepper flakes.",
+    "ingredients": [
+      {
+        "name": "Rice noodles",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Cabbage",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Soy sauce",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Roasted peanuts",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Red pepper flakes",
+        "unit": "oz",
+        "qty": 0.02
+      }
+    ]
+  },
+  {
+    "id": "meal-corn-muffins-and-baked-apple",
+    "name": "Corn muffins and baked apple",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 3,
+    "servings": 4,
+    "prep": 2,
+    "directions": "Mix the corn muffin batter and bake the muffins using the package directions. Bake sliced apple separately in an oven-safe dish until tender. Serve with the muffins and follow the package directions for storing extras.",
+    "ingredients": [
+      {
+        "name": "Gala apples",
+        "unit": "lb",
+        "qty": 1.6
+      },
+      {
+        "name": "Corn muffin mix",
+        "unit": "oz",
+        "qty": 8.5
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.021
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-and-rice-soup-with-green-beans",
+    "name": "Chicken and rice soup with green beans",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Drain the green beans. Add them to the soup and heat using the soup package directions.",
+    "ingredients": [
+      {
+        "name": "Canned chicken and rice soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Canned green beans",
+        "unit": "oz",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": "meal-vegetable-beef-soup-and-sliced-apple",
+    "name": "Vegetable beef soup and sliced apple",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the soup according to its label. Slice the apple and serve it on the side.",
+    "ingredients": [
+      {
+        "name": "Canned vegetable beef soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Gala apples",
+        "unit": "lb",
+        "qty": 0.4
+      }
+    ]
+  },
+  {
+    "id": "meal-vegetable-beef-soup-with-corn",
+    "name": "Vegetable beef soup with corn",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Drain the corn and add it to the soup. Heat using the package directions.",
+    "ingredients": [
+      {
+        "name": "Canned vegetable beef soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Canned corn",
+        "unit": "can",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-vegetable-soup-and-chopped-salad",
+    "name": "Vegetable soup and chopped salad",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the soup according to the label. Toss a portion of the salad kit according to its package directions.",
+    "ingredients": [
+      {
+        "name": "Canned vegetable soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Bagged salad kit",
+        "unit": "each",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-and-rice-soup-with-salad",
+    "name": "Chicken and rice soup with salad",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the soup as directed. Prepare a portion of the salad kit and add sliced cherry tomatoes.",
+    "ingredients": [
+      {
+        "name": "Canned chicken and rice soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Bagged salad kit",
+        "unit": "each",
+        "qty": 0.5
+      },
+      {
+        "name": "Cherry tomatoes",
+        "unit": "oz",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": "meal-cheddar-potato-soup",
+    "name": "Cheddar potato soup",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the potato soup according to the label. Stir grated cheddar and a pinch each of garlic powder and onion powder into the hot soup.",
+    "ingredients": [
+      {
+        "name": "Canned potato soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Garlic powder",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Onion powder",
+        "unit": "oz",
+        "qty": 0.05
+      }
+    ]
+  },
+  {
+    "id": "meal-potato-and-green-bean-soup",
+    "name": "Potato and green bean soup",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Drain the green beans. Stir them into the soup and heat as directed on the soup package. Sprinkle with paprika.",
+    "ingredients": [
+      {
+        "name": "Canned potato soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Canned green beans",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Paprika",
+        "unit": "oz",
+        "qty": 0.03
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-noodle-soup-and-sweet-potato",
+    "name": "Chicken noodle soup and sweet potato",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Scrub and pierce the sweet potato. Microwave it in a suitable dish until tender. Prepare the soup separately using its microwave directions.",
+    "ingredients": [
+      {
+        "name": "Condensed chicken noodle soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Sweet potatoes",
+        "unit": "lb",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-tomato-soup-with-white-beans",
+    "name": "Tomato soup with white beans",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the tomato soup with water as directed. Drain the canned beans and stir them into the soup while it heats.",
+    "ingredients": [
+      {
+        "name": "Condensed tomato soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Canned beans",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-minestrone-with-romaine-salad",
+    "name": "Minestrone with romaine salad",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the soup as directed. Wash and chop the romaine and toss with dressing.",
+    "ingredients": [
+      {
+        "name": "Canned minestrone",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Romaine hearts",
+        "unit": "each",
+        "qty": 0.5
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-ramen-with-corn-and-hot-sauce",
+    "name": "Ramen with corn and hot sauce",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the ramen as directed. Add drained canned corn and hot sauce to the finished bowl.",
+    "ingredients": [
+      {
+        "name": "Instant ramen packets",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Canned corn",
+        "unit": "can",
+        "qty": 0.25
+      },
+      {
+        "name": "Hot sauce",
+        "unit": "oz",
+        "qty": 0.1
+      }
+    ],
+    "spice": 2
+  },
+  {
+    "id": "meal-noodle-cup-and-green-beans",
+    "name": "Noodle cup and green beans",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat water and prepare the noodle cup using its label. Heat the green beans separately as directed and serve them on the side.",
+    "ingredients": [
+      {
+        "name": "Instant noodle cups",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Canned green beans",
+        "unit": "oz",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": "meal-mac-and-cheese-with-mixed-vegetables",
+    "name": "Mac and cheese with mixed vegetables",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Prepare the macaroni and cheese using the milk and butter called for on the box. Cook the frozen vegetables as directed and stir them into the finished mac.",
+    "ingredients": [
+      {
+        "name": "Boxed macaroni and cheese",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.016
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Frozen vegetables",
+        "unit": "oz",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": "meal-beef-taco-mac-and-cheese",
+    "name": "Beef taco mac and cheese",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Prepare the macaroni and cheese using the milk and butter called for on the box. Cook the ground beef to 160 °F using a food thermometer. Season according to the taco seasoning packet and stir into the mac.",
+    "ingredients": [
+      {
+        "name": "Boxed macaroni and cheese",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.016
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Ground beef",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Taco seasoning",
+        "unit": "each",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-crunchy-beef-tacos",
+    "name": "Crunchy beef tacos",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the ground beef to 160 °F using a food thermometer. Season according to the packet. Fill the shells with beef, romaine, and salsa.",
+    "ingredients": [
+      {
+        "name": "Crunchy taco shells",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Ground beef",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Taco seasoning",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Romaine hearts",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Salsa",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-crunchy-bean-and-jalapeno-tacos",
+    "name": "Crunchy bean and jalapeño tacos",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Warm the refried beans as directed on the can. Fill crunchy shells with the beans, cheddar, and sliced jalapeño.",
+    "ingredients": [
+      {
+        "name": "Crunchy taco shells",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Canned refried beans",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Jalapeños",
+        "unit": "oz",
+        "qty": 0.25
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 1
+      }
+    ],
+    "spice": 2
+  },
+  {
+    "id": "meal-spaghetti-with-tuna-and-garlic",
+    "name": "Spaghetti with tuna and garlic",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook and drain the spaghetti. Warm the tomato sauce with a little garlic powder, then stir in drained tuna and toss with the pasta.",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Garlic powder",
+        "unit": "oz",
+        "qty": 0.05
+      }
+    ]
+  },
+  {
+    "id": "meal-cheddar-and-salsa-quesadilla",
+    "name": "Cheddar and salsa quesadilla",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Fold shredded cheddar inside the tortillas. Warm in a skillet until the cheese melts. Serve with salsa.",
+    "ingredients": [
+      {
+        "name": "Flour tortillas",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 1.5
+      },
+      {
+        "name": "Salsa",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-bean-burritos-with-seasoned-corn",
+    "name": "Bean burritos with seasoned corn",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the burritos according to their microwave directions. Drain and heat the corn separately, then stir in a little chili powder.",
+    "ingredients": [
+      {
+        "name": "Frozen bean and cheese burritos",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Canned corn",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Chili powder",
+        "unit": "oz",
+        "qty": 0.05
+      }
+    ]
+  },
+  {
+    "id": "meal-cheese-pizza-and-grapes",
+    "name": "Cheese pizza and grapes",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza according to its package directions and serve a portion with washed grapes.",
+    "ingredients": [
+      {
+        "name": "Frozen cheese pizza",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Grapes",
+        "unit": "lb",
+        "qty": 0.3
+      }
+    ]
+  },
+  {
+    "id": "meal-vegetable-pizza-and-romaine-salad",
+    "name": "Vegetable pizza and romaine salad",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza according to its directions. Wash and chop the romaine, toss with dressing, and serve with a portion of pizza.",
+    "ingredients": [
+      {
+        "name": "Frozen vegetable pizza",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Romaine hearts",
+        "unit": "each",
+        "qty": 0.5
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-vegetable-pizza",
+    "name": "Vegetable pizza",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza according to its package directions and serve a portion. Follow the package directions for storing leftover pizza.",
+    "ingredients": [
+      {
+        "name": "Frozen vegetable pizza",
+        "unit": "each",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-pizza-rolls-and-fries",
+    "name": "Pizza rolls and fries",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza rolls and fries separately, following the temperature and timing on each package. Serve the fries with ketchup.",
+    "ingredients": [
+      {
+        "name": "Frozen pizza rolls",
+        "unit": "oz",
+        "qty": 5
+      },
+      {
+        "name": "Frozen french fries",
+        "unit": "oz",
+        "qty": 4
+      },
+      {
+        "name": "Ketchup",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-pizza-rolls-and-tomato-dip",
+    "name": "Pizza rolls and tomato dip",
+    "mealType": "lunch",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza rolls as directed. Serve with a little tomato sauce as a dip.",
+    "ingredients": [
+      {
+        "name": "Frozen pizza rolls",
+        "unit": "oz",
+        "qty": 5
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-dinner-and-yams",
+    "name": "Chicken dinner and yams",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the frozen dinner and canned yams separately according to their microwave directions.",
+    "ingredients": [
+      {
+        "name": "Frozen chicken TV dinner",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Canned yams",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-salisbury-steak-dinner-and-yams",
+    "name": "Salisbury steak dinner and yams",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the frozen dinner and canned yams separately according to their microwave directions.",
+    "ingredients": [
+      {
+        "name": "Frozen Salisbury steak TV dinner",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Canned yams",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-salisbury-steak-dinner-and-peaches",
+    "name": "Salisbury steak dinner and peaches",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the dinner according to the microwave directions. Drain the peaches and serve them on the side.",
+    "ingredients": [
+      {
+        "name": "Frozen Salisbury steak TV dinner",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Canned peaches",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-lasagna-and-fruit-cup",
+    "name": "Lasagna and fruit cup",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the lasagna according to its microwave directions and serve with a fruit cup.",
+    "ingredients": [
+      {
+        "name": "Frozen single-serve lasagna",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Fruit cups",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-nugget-wrap",
+    "name": "Chicken nugget wrap",
+    "mealType": "lunch",
+    "heatMethods": [
+      "oven"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the nuggets according to their package. Wash and chop the romaine. Fold the nuggets, lettuce, dressing, and barbecue sauce inside the tortilla.",
+    "ingredients": [
+      {
+        "name": "Frozen chicken nuggets",
+        "unit": "oz",
+        "qty": 5
+      },
+      {
+        "name": "Flour tortillas",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Romaine hearts",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Barbecue sauce",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-peanut-butter-oats",
+    "name": "Peanut butter oats",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the oats on the stovetop according to their package, then stir in peanut butter and drizzle with honey.",
+    "ingredients": [
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Peanut butter",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Honey",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-scrambled-eggs",
+    "name": "Scrambled eggs",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Scramble the eggs in a skillet with butter until set, and season with salt and pepper.",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.03
+      },
+      {
+        "name": "Black pepper",
+        "unit": "oz",
+        "qty": 0.02
+      }
+    ]
+  },
+  {
+    "id": "meal-apple-oats",
+    "name": "Apple oats",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the oats as directed and stir in diced apple and a drizzle of syrup.",
+    "ingredients": [
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Gala apples",
+        "unit": "lb",
+        "qty": 0.4
+      },
+      {
+        "name": "Pancake syrup",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-potato-and-egg-skillet",
+    "name": "Potato and egg skillet",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Dice the potato and cook it in a skillet with butter until tender. Add beaten eggs and cook until set. Season with salt and pepper and serve with ketchup.",
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "unit": "lb",
+        "qty": 0.5
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.03
+      },
+      {
+        "name": "Black pepper",
+        "unit": "oz",
+        "qty": 0.02
+      },
+      {
+        "name": "Ketchup",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-tuna-salad-on-crackers",
+    "name": "Tuna salad on crackers",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Drain the tuna, mix it with the mayonnaise, and serve on crackers. Eat the opened tuna promptly.",
+    "ingredients": [
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Mayonnaise",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-banana-oats",
+    "name": "Banana oats",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the oats as directed and top with sliced banana.",
+    "ingredients": [
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Bananas",
+        "unit": "lb",
+        "qty": 0.3
+      }
+    ]
+  },
+  {
+    "id": "meal-lemon-tuna-salad",
+    "name": "Lemon tuna salad",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Drain the tuna and mix it with the mayonnaise and lemon juice. Toss with the prepared salad greens and dressing.",
+    "ingredients": [
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Bagged salad greens",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Bottled lemon juice",
+        "unit": "oz",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-chocolate-banana-oats",
+    "name": "Chocolate banana oats",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the oats according to the label. Stir in chopped chocolate and top with banana.",
+    "ingredients": [
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Bananas",
+        "unit": "lb",
+        "qty": 0.3
+      },
+      {
+        "name": "Chocolate bars",
+        "unit": "each",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-tuna-crackers-and-berry-sundae",
+    "name": "Tuna crackers and berry sundae",
+    "mealType": "lunch",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Drain the tuna, mix it with the mayonnaise, and serve with crackers. Thaw berries labeled ready to eat as directed, then serve them over vanilla ice cream with a little chocolate syrup.",
+    "ingredients": [
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Frozen mixed berries",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Vanilla ice cream",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Chocolate syrup",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Mayonnaise",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-berry-oats-and-a-chocolate-scoop",
+    "name": "Berry oats and a chocolate scoop",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the oats and prepare the berries according to their labels. Serve the berries with the oats and top a small scoop of ice cream with chopped chocolate and syrup.",
+    "ingredients": [
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Frozen mixed berries",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Vanilla ice cream",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Chocolate bars",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Chocolate syrup",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-grape-banana-and-nut-bowl",
+    "name": "Grape, banana, and nut bowl",
+    "mealType": "breakfast",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Wash the grapes, slice the banana, and combine with mixed nuts.",
+    "ingredients": [
+      {
+        "name": "Grapes",
+        "unit": "lb",
+        "qty": 0.35
+      },
+      {
+        "name": "Bananas",
+        "unit": "lb",
+        "qty": 0.4
+      },
+      {
+        "name": "Mixed nuts",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-eggs-and-oats",
+    "name": "Eggs and oats",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the oats according to the package. Scramble the eggs in a skillet until set and serve with the oats.",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": "meal-vegetable-soup-with-beans-and-crackers",
+    "name": "Vegetable soup with beans and crackers",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Drain the beans and stir them into the soup. Heat using the soup package directions. Serve with crackers.",
+    "ingredients": [
+      {
+        "name": "Canned vegetable soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Canned beans",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-sliced-apple",
+    "name": "Sliced apple",
+    "mealType": "snack",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Slice the apple.",
+    "ingredients": [
+      {
+        "name": "Gala apples",
+        "unit": "lb",
+        "qty": 0.4
+      }
+    ]
+  },
+  {
+    "id": "meal-banana",
+    "name": "Banana",
+    "mealType": "snack",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Peel the banana.",
+    "ingredients": [
+      {
+        "name": "Bananas",
+        "unit": "lb",
+        "qty": 0.3
+      }
+    ]
+  },
+  {
+    "id": "meal-roasted-peanuts-snack",
+    "name": "Roasted peanuts snack",
+    "mealType": "snack",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Portion the roasted peanuts into a small bowl.",
+    "ingredients": [
+      {
+        "name": "Roasted peanuts",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-fruit-cup",
+    "name": "Fruit cup",
+    "mealType": "snack",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Open a fruit cup.",
+    "ingredients": [
+      {
+        "name": "Fruit cups",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-peanut-butter-crackers",
+    "name": "Peanut butter crackers",
+    "mealType": "snack",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Spread peanut butter on the crackers.",
+    "ingredients": [
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Peanut butter",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-orange-wedges",
+    "name": "Orange wedges",
+    "mealType": "snack",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Peel the orange and split it into wedges.",
+    "ingredients": [
+      {
+        "name": "Oranges",
+        "unit": "lb",
+        "qty": 0.4
+      }
+    ]
+  },
+  {
+    "id": "meal-grapes-and-cheddar",
+    "name": "Grapes and cheddar",
+    "mealType": "snack",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Rinse the grapes and slice the cheddar.",
+    "ingredients": [
+      {
+        "name": "Grapes",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-chocolate-and-mixed-nuts",
+    "name": "Chocolate and mixed nuts",
+    "mealType": "snack",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Break off a piece of chocolate and serve with the nuts.",
+    "ingredients": [
+      {
+        "name": "Chocolate bars",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Mixed nuts",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-carrot-sticks-and-dressing",
+    "name": "Carrot sticks and dressing",
+    "mealType": "snack",
+    "heatMethods": [],
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Wash the carrots, cut them into sticks, and serve with dressing.",
+    "ingredients": [
+      {
+        "name": "Carrots",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-turkey-taco-rice-bowl",
+    "name": "Turkey taco rice bowl",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 3,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the rice. Cook the ground turkey to 165 °F using a food thermometer, then season it according to the taco seasoning packet. Serve over the rice with sliced jalapeños.",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "unit": "lb",
+        "qty": 0.15
+      },
+      {
+        "name": "Ground turkey",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Taco seasoning",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Jalapeños",
+        "unit": "oz",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-turkey-skillet-with-yams-and-green-beans",
+    "name": "Turkey skillet with yams and green beans",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the ground turkey to 165 °F using a food thermometer, seasoning it with onion powder, salt, and pepper. Heat the drained yams and green beans separately and serve them alongside.",
+    "ingredients": [
+      {
+        "name": "Ground turkey",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Canned yams",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Canned green beans",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.03
+      },
+      {
+        "name": "Black pepper",
+        "unit": "oz",
+        "qty": 0.02
+      },
+      {
+        "name": "Onion powder",
+        "unit": "oz",
+        "qty": 0.05
+      }
+    ]
+  },
+  {
+    "id": "meal-beef-and-garlic-spaghetti",
+    "name": "Beef and garlic spaghetti",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the ground beef to 160 °F using a food thermometer. Stir in the tomato sauce, garlic powder, and onion powder and simmer until hot. Toss with the cooked, drained spaghetti and top with parmesan.",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Spaghetti",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Garlic powder",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Onion powder",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Grated parmesan cheese",
+        "unit": "oz",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-lentil-and-sweet-potato-stew",
+    "name": "Lentil and sweet potato stew",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 1,
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Rinse the lentils. Peel and dice the sweet potato and chop the onion. Simmer with the tomatoes and enough water to cover until the lentils and sweet potato are tender. Finish with a splash of lemon juice.",
+    "ingredients": [
+      {
+        "name": "Lentils",
+        "unit": "lb",
+        "qty": 0.15
+      },
+      {
+        "name": "Sweet potatoes",
+        "unit": "lb",
+        "qty": 0.5
+      },
+      {
+        "name": "Canned tomatoes",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Onions",
+        "unit": "lb",
+        "qty": 0.1
+      },
+      {
+        "name": "Bottled lemon juice",
+        "unit": "oz",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-simmered-bean-and-carrot-soup",
+    "name": "Simmered bean and carrot soup",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 1,
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Soak the dry beans, drain them, and boil them in fresh water until fully tender. Add chopped onion, sliced carrots, and chili powder, and simmer until the carrots are tender.",
+    "ingredients": [
+      {
+        "name": "Dry beans",
+        "unit": "lb",
+        "qty": 0.15
+      },
+      {
+        "name": "Onions",
+        "unit": "lb",
+        "qty": 0.1
+      },
+      {
+        "name": "Carrots",
+        "unit": "lb",
+        "qty": 0.2
+      },
+      {
+        "name": "Chili powder",
+        "unit": "oz",
+        "qty": 0.05
+      }
+    ]
+  },
+  {
+    "id": "meal-buttered-cabbage-pasta",
+    "name": "Buttered cabbage pasta",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Boil the pasta and drain it. Cook shredded cabbage in the butter until tender, season with garlic powder and a pinch of red pepper flakes, and toss with the pasta.",
+    "ingredients": [
+      {
+        "name": "Pasta",
+        "unit": "lb",
+        "qty": 0.2
+      },
+      {
+        "name": "Cabbage",
+        "unit": "lb",
+        "qty": 0.25
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.4
+      },
+      {
+        "name": "Garlic powder",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Red pepper flakes",
+        "unit": "oz",
+        "qty": 0.02
+      }
+    ]
+  },
+  {
+    "id": "meal-corn-muffins-and-peaches",
+    "name": "Corn muffins and peaches",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Prepare the muffin mix with the milk and egg as directed on the package and bake until done. Drain the peaches and serve them on the side. Follow the package directions for storing extra muffins.",
+    "ingredients": [
+      {
+        "name": "Corn muffin mix",
+        "unit": "oz",
+        "qty": 2.125
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.016
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 0.5
+      },
+      {
+        "name": "Canned peaches",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-noodle-soup-and-cheese-quesadilla",
+    "name": "Chicken noodle soup and cheese quesadilla",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the soup with water according to the label. Warm a tortilla with shredded cheddar in a skillet until the cheese melts. Serve with the soup.",
+    "ingredients": [
+      {
+        "name": "Condensed chicken noodle soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Flour tortillas",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-breakfast-burrito-with-salsa",
+    "name": "Breakfast burrito with salsa",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "microwave"
+    ],
+    "spice": 2,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat one burrito using the package's microwave directions until it is hot throughout, and top it with salsa.",
+    "ingredients": [
+      {
+        "name": "Frozen bean and cheese burritos",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Salsa",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-pepperoni-pizza-and-salad",
+    "name": "Pepperoni pizza and salad",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 1,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza according to its package directions and serve a portion. Prepare a portion of the salad kit according to its package. Follow the package directions for storing leftover pizza.",
+    "ingredients": [
+      {
+        "name": "Frozen pepperoni pizza",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Bagged salad kit",
+        "unit": "each",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-macaroni-with-broccoli-and-cheddar",
+    "name": "Macaroni with broccoli and cheddar",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Boil the macaroni and drain it. Cook the frozen broccoli as directed. Toss the macaroni with butter, broccoli, and shredded cheddar until the cheese melts.",
+    "ingredients": [
+      {
+        "name": "Elbow macaroni",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Frozen broccoli",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.3
+      }
+    ]
+  },
+  {
+    "id": "meal-tomato-macaroni-soup",
+    "name": "Tomato macaroni soup",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Boil the macaroni and drain it. Prepare the tomato soup with water according to the label, stir in the macaroni, and top with shredded cheddar.",
+    "ingredients": [
+      {
+        "name": "Condensed tomato soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Elbow macaroni",
+        "unit": "oz",
+        "qty": 1.5
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-vegetable-soup-with-rice",
+    "name": "Vegetable soup with rice",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Cook the rice. Heat the soup according to the label and stir in the rice.",
+    "ingredients": [
+      {
+        "name": "Canned vegetable soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "unit": "lb",
+        "qty": 0.1
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-and-rice-soup-with-tomatoes-and-crackers",
+    "name": "Chicken and rice soup with tomatoes and crackers",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the soup according to the label. Rinse the cherry tomatoes and serve them on the side with crackers.",
+    "ingredients": [
+      {
+        "name": "Canned chicken and rice soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Cherry tomatoes",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-vegetable-beef-soup-over-a-baked-potato",
+    "name": "Vegetable beef soup over a baked potato",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Scrub and pierce the potato and microwave it until tender. Heat the soup according to its label, split the potato, and spoon the soup over it.",
+    "ingredients": [
+      {
+        "name": "Canned vegetable beef soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Potatoes",
+        "unit": "lb",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-minestrone-and-crackers",
+    "name": "Minestrone and crackers",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the soup according to the label. Serve with crackers.",
+    "ingredients": [
+      {
+        "name": "Canned minestrone",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-potato-soup-with-corn",
+    "name": "Potato soup with corn",
+    "mealType": "lunch",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Prepare the potato soup according to the label. Drain the corn, stir it in, and heat until hot.",
+    "ingredients": [
+      {
+        "name": "Canned potato soup",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Canned corn",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-ramen-with-egg-and-cabbage",
+    "name": "Ramen with egg and cabbage",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 1,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Bring water to a boil and add shredded cabbage. Add the noodles and seasoning, following the package. Cook the egg separately until the white and yolk are firm, then add it to the bowl.",
+    "ingredients": [
+      {
+        "name": "Instant ramen packets",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Cabbage",
+        "unit": "lb",
+        "qty": 0.15
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-spicy-noodle-cup-and-orange",
+    "name": "Spicy noodle cup and orange",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 2,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat water on the stovetop and prepare the noodle cup according to its label. Add hot sauce to taste. Peel the orange and serve it on the side.",
+    "ingredients": [
+      {
+        "name": "Instant noodle cups",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Hot sauce",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Oranges",
+        "unit": "lb",
+        "qty": 0.4
+      }
+    ]
+  },
+  {
+    "id": "meal-rice-noodles-with-egg-and-vegetables",
+    "name": "Rice noodles with egg and vegetables",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Prepare the rice noodles as directed. Scramble the egg until fully set and cook the frozen vegetables as directed. Toss everything with soy sauce.",
+    "ingredients": [
+      {
+        "name": "Rice noodles",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Frozen vegetables",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Soy sauce",
+        "unit": "oz",
+        "qty": 0.35
+      }
+    ]
+  },
+  {
+    "id": "meal-tuna-mac-and-cheese",
+    "name": "Tuna mac and cheese",
+    "mealType": "dinner",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Prepare the macaroni and cheese using the milk and butter called for on the box. Drain the tuna and stir it in.",
+    "ingredients": [
+      {
+        "name": "Boxed macaroni and cheese",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.016
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-crunchy-chili-tacos",
+    "name": "Crunchy chili tacos",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 2,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the chili until steaming. Spoon it into the taco shells and top with shredded cheddar and chopped romaine.",
+    "ingredients": [
+      {
+        "name": "Crunchy taco shells",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Canned chili",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Romaine hearts",
+        "unit": "each",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-cheese-pizza",
+    "name": "Cheese pizza",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza according to its package directions and serve a portion. Follow the package directions for storing leftover pizza.",
+    "ingredients": [
+      {
+        "name": "Frozen cheese pizza",
+        "unit": "each",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-pizza-rolls-and-carrot-sticks",
+    "name": "Pizza rolls and carrot sticks",
+    "mealType": "lunch",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza rolls following the temperature and timing on the package. Wash the carrots, cut them into sticks, and serve with dressing.",
+    "ingredients": [
+      {
+        "name": "Frozen pizza rolls",
+        "unit": "oz",
+        "qty": 5
+      },
+      {
+        "name": "Carrots",
+        "unit": "lb",
+        "qty": 0.2
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-tv-dinner",
+    "name": "Chicken TV dinner",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the dinner following its microwave and standing directions.",
+    "ingredients": [
+      {
+        "name": "Frozen chicken TV dinner",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-salisbury-steak-dinner",
+    "name": "Salisbury steak dinner",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the dinner following its microwave and standing directions.",
+    "ingredients": [
+      {
+        "name": "Frozen Salisbury steak TV dinner",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-lasagna",
+    "name": "Lasagna",
+    "mealType": "dinner",
+    "heatMethods": [
+      "microwave"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the lasagna following its microwave and standing directions.",
+    "ingredients": [
+      {
+        "name": "Frozen single-serve lasagna",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-chicken-nuggets-and-carrot-sticks",
+    "name": "Chicken nuggets and carrot sticks",
+    "mealType": "lunch",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the nuggets according to their package directions. Wash the carrots, cut them into sticks, and serve with dressing for the carrots and barbecue sauce for the nuggets.",
+    "ingredients": [
+      {
+        "name": "Frozen chicken nuggets",
+        "unit": "oz",
+        "qty": 5
+      },
+      {
+        "name": "Carrots",
+        "unit": "lb",
+        "qty": 0.2
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Barbecue sauce",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-chili-cheese-fries",
+    "name": "Chili cheese fries",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 2,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the fries according to the package. Heat the chili in a covered oven-safe dish while the fries bake, until steaming. Spoon the chili over the fries and top with shredded cheddar.",
+    "ingredients": [
+      {
+        "name": "Frozen french fries",
+        "unit": "oz",
+        "qty": 4
+      },
+      {
+        "name": "Canned chili",
+        "unit": "can",
+        "qty": 0.5
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 0.75
+      }
+    ]
+  },
+  {
+    "id": "meal-berry-ice-cream-sundae",
+    "name": "Berry ice cream sundae",
+    "mealType": "snack",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 5,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Thaw berries labeled ready to eat as directed. Spoon them over the ice cream and drizzle with chocolate syrup.",
+    "ingredients": [
+      {
+        "name": "Vanilla ice cream",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Frozen mixed berries",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Chocolate syrup",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-egg-and-cheese-quesadilla",
+    "name": "Egg and cheese quesadilla",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Scramble the egg until fully set. Fold it into a tortilla with shredded cheddar and warm in a skillet until the cheese melts.",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Flour tortillas",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-scratch-pancakes",
+    "name": "Scratch pancakes",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 2,
+    "prep": 3,
+    "directions": "Whisk the flour, sugar, baking powder, and salt. Whisk in the milk, egg, and oil just until combined. Cook 1/4-cup scoops on a lightly oiled skillet over medium heat, flipping when bubbles form, until both sides are golden and the centers are cooked through. Serve with syrup. Don't taste the raw batter.",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.27
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.055
+      },
+      {
+        "name": "Baking powder",
+        "unit": "oz",
+        "qty": 0.32
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.0625
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Pancake syrup",
+        "unit": "oz",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "id": "meal-cornmeal-pancakes",
+    "name": "Cornmeal pancakes",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 2,
+    "prep": 3,
+    "directions": "Whisk the cornmeal, flour, sugar, baking powder, and salt. Whisk in the milk, egg, and oil. Cook 1/4-cup scoops on a lightly oiled skillet over medium heat, flipping once, until both sides are golden and the centers are cooked through. Serve with syrup. Don't taste the raw batter.",
+    "ingredients": [
+      {
+        "name": "Cornmeal",
+        "unit": "lb",
+        "qty": 0.16
+      },
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.135
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.03
+      },
+      {
+        "name": "Baking powder",
+        "unit": "oz",
+        "qty": 0.32
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.0625
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Pancake syrup",
+        "unit": "oz",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "id": "meal-cheesy-cornmeal-porridge",
+    "name": "Cheesy cornmeal porridge",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 2,
+    "prep": 2,
+    "directions": "Bring 2 cups of water and the salt to a boil. Whisk in the cornmeal slowly, lower the heat, and simmer, stirring often, about 15 minutes, until thick and soft. Stir in the butter and shredded cheddar.",
+    "ingredients": [
+      {
+        "name": "Cornmeal",
+        "unit": "lb",
+        "qty": 0.16
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 1.5
+      }
+    ]
+  },
+  {
+    "id": "meal-drop-biscuits-and-baked-eggs",
+    "name": "Drop biscuits and baked eggs",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 4,
+    "prep": 3,
+    "directions": "Heat the oven to 450 °F. Mix the flour, baking powder, sugar, and salt, then cut in the cold butter until crumbly. Stir in the milk just until combined, drop 8 mounds onto a baking sheet, and bake 10 to 12 minutes, until golden. Bake one egg per serving in a greased oven-safe ramekin until the white and yolk are fully set, and sprinkle the eggs with paprika. Serve the biscuits with honey. Don't taste the raw dough.",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.54
+      },
+      {
+        "name": "Baking powder",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.03
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 4
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.0625
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 4
+      },
+      {
+        "name": "Paprika",
+        "unit": "oz",
+        "qty": 0.12
+      },
+      {
+        "name": "Honey",
+        "unit": "oz",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": "meal-cinnamon-rolls",
+    "name": "Cinnamon rolls",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 5,
+    "servings": 8,
+    "prep": 3,
+    "directions": "Warm the milk to about 110 °F and stir in the yeast and sugar. Mix in the egg, half the butter (melted), salt, and flour, and knead until smooth. Cover and let rise until doubled, about 1 hour. Roll into a rectangle, spread with the remaining soft butter, and sprinkle with brown sugar and cinnamon. Roll up, cut into 8 rolls, and let rise 30 minutes. Bake at 350 °F for 25 to 30 minutes, until golden. Don't taste the raw dough.",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.81
+      },
+      {
+        "name": "Active dry yeast",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.11
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.0625
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 4
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Brown sugar",
+        "unit": "lb",
+        "qty": 0.24
+      },
+      {
+        "name": "Ground cinnamon",
+        "unit": "oz",
+        "qty": 0.27
+      }
+    ]
+  },
+  {
+    "id": "meal-berry-muffins",
+    "name": "Berry muffins",
+    "mealType": "breakfast",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 6,
+    "prep": 3,
+    "directions": "Heat the oven to 400 °F and grease a muffin pan. Mix the flour, sugar, baking powder, and salt. Stir in the milk, oil, egg, and vanilla just until combined, then fold in the berries while still frozen. Fill 6 cups and bake 18 to 22 minutes, until a toothpick in the center comes out clean. Don't taste the raw batter.",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.4
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.22
+      },
+      {
+        "name": "Baking powder",
+        "unit": "oz",
+        "qty": 0.32
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.031
+      },
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 2.7
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Vanilla extract",
+        "unit": "oz",
+        "qty": 0.17
+      },
+      {
+        "name": "Frozen mixed berries",
+        "unit": "oz",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": "meal-scratch-cornbread-and-chili",
+    "name": "Scratch cornbread and chili",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 1,
+    "taste": 4,
+    "servings": 6,
+    "prep": 3,
+    "directions": "Heat the oven to 400 °F and grease an 8-inch pan. Mix the cornmeal, flour, sugar, baking powder, and salt. Stir in the milk, egg, and oil just until combined. Bake 20 to 25 minutes, until golden and a toothpick comes out clean. Heat the chili in a covered oven-safe dish until steaming and serve with the cornbread. Don't taste the raw batter.",
+    "ingredients": [
+      {
+        "name": "Cornmeal",
+        "unit": "lb",
+        "qty": 0.31
+      },
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.27
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.11
+      },
+      {
+        "name": "Baking powder",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.0625
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 2.7
+      },
+      {
+        "name": "Canned chili",
+        "unit": "can",
+        "qty": 4.5
+      }
+    ]
+  },
+  {
+    "id": "meal-homemade-cheese-pizza",
+    "name": "Homemade cheese pizza",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 5,
+    "servings": 4,
+    "prep": 3,
+    "directions": "Stir the yeast and sugar into 1 cup of warm water (about 110 °F) and let it stand 5 minutes. Mix in the flour, salt, and oil, knead until smooth, cover, and let rise until doubled, about 1 hour. Heat the oven to 450 °F. Press the dough onto an oiled pan, top with tomato sauce, Italian seasoning, and shredded cheddar, and bake 12 to 15 minutes, until the crust is browned and the cheese bubbles. Refrigerate leftovers within 2 hours. Don't taste the raw dough.",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.68
+      },
+      {
+        "name": "Active dry yeast",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.01
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Tomato sauce",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 6
+      },
+      {
+        "name": "Italian seasoning",
+        "unit": "oz",
+        "qty": 0.1
+      }
+    ]
+  },
+  {
+    "id": "meal-homemade-bread-and-peanut-butter",
+    "name": "Homemade bread and peanut butter",
+    "mealType": "lunch",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 8,
+    "prep": 3,
+    "directions": "Stir the yeast and sugar into 1 1/4 cups of warm water (about 110 °F) and let it stand 5 minutes. Mix in the oil, salt, and flour, and knead about 8 minutes, until smooth. Cover and let rise until doubled, about 1 hour. Shape into a loaf, place in a greased loaf pan, and let rise 30 minutes. Bake at 375 °F for 30 to 35 minutes, until golden and hollow-sounding when tapped. Cool, slice, and spread with peanut butter. Don't taste the raw dough.",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.88
+      },
+      {
+        "name": "Active dry yeast",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.055
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.2
+      },
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Peanut butter",
+        "unit": "oz",
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "id": "meal-homemade-tortillas-with-beans-and-cheese",
+    "name": "Homemade tortillas with beans and cheese",
+    "mealType": "lunch",
+    "heatMethods": [
+      "hotplate"
+    ],
+    "spice": 1,
+    "taste": 4,
+    "servings": 4,
+    "prep": 3,
+    "directions": "Mix the flour, baking powder, and salt. Stir in the oil and about 3/4 cup of warm water to make a soft dough. Divide into 8 balls, rest 10 minutes, and roll thin. Cook each in a dry skillet over medium-high heat until both sides have browned spots. Warm the beans as directed on the can and fill two tortillas per serving with beans and cheddar. Don't taste the raw dough.",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.54
+      },
+      {
+        "name": "Baking powder",
+        "unit": "oz",
+        "qty": 0.16
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Canned refried beans",
+        "unit": "can",
+        "qty": 2
+      },
+      {
+        "name": "Cheddar cheese",
+        "unit": "oz",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": "meal-banana-bread",
+    "name": "Banana bread",
+    "mealType": "snack",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 5,
+    "servings": 8,
+    "prep": 3,
+    "directions": "Heat the oven to 350 °F and grease a loaf pan. Mash the bananas, then stir in the oil, egg, sugar, and vanilla. Stir in the flour, baking soda, salt, and cinnamon just until combined. Bake 55 to 65 minutes, until a toothpick in the center comes out clean. Cool before slicing. Don't taste the raw batter.",
+    "ingredients": [
+      {
+        "name": "Bananas",
+        "unit": "lb",
+        "qty": 1
+      },
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 2.7
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.29
+      },
+      {
+        "name": "Vanilla extract",
+        "unit": "oz",
+        "qty": 0.17
+      },
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.4
+      },
+      {
+        "name": "Baking soda",
+        "unit": "oz",
+        "qty": 0.2
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Ground cinnamon",
+        "unit": "oz",
+        "qty": 0.045
+      }
+    ]
+  },
+  {
+    "id": "meal-peanut-butter-cookies",
+    "name": "Peanut butter cookies",
+    "mealType": "snack",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 5,
+    "servings": 12,
+    "prep": 3,
+    "directions": "Heat the oven to 350 °F. Mix the peanut butter, both sugars, egg, and vanilla, then stir in the flour and baking soda. Roll into 1-inch balls, flatten with a fork on an ungreased baking sheet, and bake 9 to 11 minutes, until set at the edges. Cool on the sheet. Don't taste the raw dough.",
+    "ingredients": [
+      {
+        "name": "Peanut butter",
+        "unit": "oz",
+        "qty": 9
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.22
+      },
+      {
+        "name": "Brown sugar",
+        "unit": "lb",
+        "qty": 0.24
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Vanilla extract",
+        "unit": "oz",
+        "qty": 0.09
+      },
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.2
+      },
+      {
+        "name": "Baking soda",
+        "unit": "oz",
+        "qty": 0.1
+      }
+    ]
+  },
+  {
+    "id": "meal-oatmeal-cookies",
+    "name": "Oatmeal cookies",
+    "mealType": "snack",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 12,
+    "prep": 3,
+    "directions": "Heat the oven to 350 °F. Beat the soft butter and brown sugar, then mix in the egg and vanilla. Stir in the flour, baking soda, cinnamon, and salt, then the oats. Drop rounded spoonfuls onto a baking sheet and bake 10 to 12 minutes, until the edges are golden. Don't taste the raw dough.",
+    "ingredients": [
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 4
+      },
+      {
+        "name": "Brown sugar",
+        "unit": "lb",
+        "qty": 0.35
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Vanilla extract",
+        "unit": "oz",
+        "qty": 0.17
+      },
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.27
+      },
+      {
+        "name": "Baking soda",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Ground cinnamon",
+        "unit": "oz",
+        "qty": 0.09
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.05
+      },
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 4.5
+      }
+    ]
+  },
+  {
+    "id": "meal-cocoa-brownies",
+    "name": "Cocoa brownies",
+    "mealType": "snack",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 5,
+    "servings": 9,
+    "prep": 3,
+    "directions": "Heat the oven to 350 °F and grease an 8-inch pan. Whisk the oil, sugar, eggs, and vanilla. Stir in the cocoa, flour, baking powder, and salt just until combined. Bake 20 to 25 minutes, until the center is set and a toothpick comes out with only a few moist crumbs. Don't taste the raw batter.",
+    "ingredients": [
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 4
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.44
+      },
+      {
+        "name": "Eggs",
+        "unit": "each",
+        "qty": 2
+      },
+      {
+        "name": "Vanilla extract",
+        "unit": "oz",
+        "qty": 0.17
+      },
+      {
+        "name": "Unsweetened cocoa powder",
+        "unit": "oz",
+        "qty": 1.5
+      },
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.135
+      },
+      {
+        "name": "Baking powder",
+        "unit": "oz",
+        "qty": 0.04
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.05
+      }
+    ]
+  },
+  {
+    "id": "meal-chocolate-snack-cake",
+    "name": "Chocolate snack cake",
+    "mealType": "snack",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 9,
+    "prep": 3,
+    "directions": "Heat the oven to 350 °F and grease an 8-inch pan. Whisk the flour, sugar, cocoa, baking soda, and salt. Stir in the oil, vanilla, and 1 cup of water until smooth. Bake 30 to 35 minutes, until a toothpick in the center comes out clean. Don't taste the raw batter.",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.4
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.44
+      },
+      {
+        "name": "Unsweetened cocoa powder",
+        "unit": "oz",
+        "qty": 0.75
+      },
+      {
+        "name": "Baking soda",
+        "unit": "oz",
+        "qty": 0.2
+      },
+      {
+        "name": "Salt",
+        "unit": "oz",
+        "qty": 0.1
+      },
+      {
+        "name": "Vegetable oil",
+        "unit": "oz",
+        "qty": 2.7
+      },
+      {
+        "name": "Vanilla extract",
+        "unit": "oz",
+        "qty": 0.17
+      }
+    ]
+  },
+  {
+    "id": "meal-homemade-hot-cocoa",
+    "name": "Homemade hot cocoa",
+    "mealType": "drink",
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 2,
+    "directions": "Whisk the cocoa and sugar into a little of the milk until smooth, then whisk in the rest. Heat until steaming, without boiling, and stir in the vanilla.",
+    "ingredients": [
+      {
+        "name": "Unsweetened cocoa powder",
+        "unit": "oz",
+        "qty": 0.4
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.055
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.0625
+      },
+      {
+        "name": "Vanilla extract",
+        "unit": "oz",
+        "qty": 0.04
+      }
+    ],
+    "drinkFor": [
+      "breakfast",
+      "dinner"
+    ],
+    "repeats": false
+  },
+  {
+    "id": "meal-cinnamon-apple-crisp",
+    "name": "Cinnamon apple crisp",
+    "mealType": "snack",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 5,
+    "servings": 4,
+    "prep": 3,
+    "directions": "Heat the oven to 350 °F. Slice the apples into a baking dish. Mix the oats, brown sugar, flour, and cinnamon, then rub in the soft butter until crumbly and scatter it over the apples. Bake 30 to 35 minutes, until the apples are tender and the topping is golden.",
+    "ingredients": [
+      {
+        "name": "Gala apples",
+        "unit": "lb",
+        "qty": 1.5
+      },
+      {
+        "name": "Oatmeal",
+        "unit": "oz",
+        "qty": 3
+      },
+      {
+        "name": "Brown sugar",
+        "unit": "lb",
+        "qty": 0.24
+      },
+      {
+        "name": "All-purpose flour",
+        "unit": "lb",
+        "qty": 0.07
+      },
+      {
+        "name": "Butter",
+        "unit": "oz",
+        "qty": 4
+      },
+      {
+        "name": "Ground cinnamon",
+        "unit": "oz",
+        "qty": 0.09
+      }
+    ]
+  },
+  {
+    "id": "meal-banana-and-mixed-nuts",
+    "name": "Banana and mixed nuts",
+    "mealType": "breakfast",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Peel the banana and serve it with the mixed nuts.",
+    "ingredients": [
+      {
+        "name": "Bananas",
+        "unit": "lb",
+        "qty": 0.4
+      },
+      {
+        "name": "Mixed nuts",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-fruit-cup-and-roasted-peanuts",
+    "name": "Fruit cup and roasted peanuts",
+    "mealType": "breakfast",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Open the fruit cup and portion the peanuts.",
+    "ingredients": [
+      {
+        "name": "Fruit cups",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Roasted peanuts",
+        "unit": "oz",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-tuna-and-crackers-with-an-orange",
+    "name": "Tuna and crackers with an orange",
+    "mealType": "lunch",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Open and drain the tuna and eat it with the crackers. Peel the orange. Eat the opened tuna promptly.",
+    "ingredients": [
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 1
+      },
+      {
+        "name": "Oranges",
+        "unit": "lb",
+        "qty": 0.4
+      }
+    ]
+  },
+  {
+    "id": "meal-salad-kit-with-tuna",
+    "name": "Salad kit with tuna",
+    "mealType": "lunch",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Toss a portion of the salad kit according to its package. Drain the tuna and add it on top. Eat promptly.",
+    "ingredients": [
+      {
+        "name": "Bagged salad kit",
+        "unit": "each",
+        "qty": 0.5
+      },
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-tuna-crackers-and-peaches",
+    "name": "Tuna, crackers, and peaches",
+    "mealType": "dinner",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Open and drain the tuna and peaches. Serve the tuna on crackers with the peaches on the side. Eat the opened tuna promptly.",
+    "ingredients": [
+      {
+        "name": "Canned tuna",
+        "unit": "can",
+        "qty": 1
+      },
+      {
+        "name": "Saltine crackers",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Canned peaches",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-bean-and-salsa-crunch-bowl",
+    "name": "Bean and salsa crunch bowl",
+    "mealType": "dinner",
+    "heatMethods": [],
+    "spice": 1,
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Open, drain, and rinse the beans. Top them with salsa and eat with the taco shells. Eat the opened beans promptly.",
+    "ingredients": [
+      {
+        "name": "Canned beans",
+        "unit": "can",
+        "qty": 0.75
+      },
+      {
+        "name": "Salsa",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Crunchy taco shells",
+        "unit": "each",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": "meal-peach-snack",
+    "name": "Peach snack",
+    "mealType": "snack",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Open and drain the peaches.",
+    "ingredients": [
+      {
+        "name": "Canned peaches",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-grapes",
+    "name": "Grapes",
+    "mealType": "snack",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Rinse the grapes.",
+    "ingredients": [
+      {
+        "name": "Grapes",
+        "unit": "lb",
+        "qty": 0.3
+      }
+    ]
+  },
+  {
+    "id": "meal-brewed-coffee",
+    "name": "Brewed coffee",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast"
+    ],
+    "repeats": true,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Brew the ground coffee with a filter and hot water.",
+    "ingredients": [
+      {
+        "name": "Ground coffee",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-coffee-with-milk",
+    "name": "Coffee with milk",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast"
+    ],
+    "repeats": true,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Brew the ground coffee with a filter and hot water, then stir in a splash of milk.",
+    "ingredients": [
+      {
+        "name": "Ground coffee",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.008
+      }
+    ]
+  },
+  {
+    "id": "meal-instant-coffee",
+    "name": "Instant coffee",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast"
+    ],
+    "repeats": true,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Stir the instant coffee into hot water according to the label.",
+    "ingredients": [
+      {
+        "name": "Instant coffee",
+        "unit": "oz",
+        "qty": 0.07
+      }
+    ]
+  },
+  {
+    "id": "meal-black-tea",
+    "name": "Black tea",
+    "mealType": "drink",
+    "drinkFor": [
+      "dinner"
+    ],
+    "repeats": true,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Steep the black tea in hot water according to the label.",
+    "ingredients": [
+      {
+        "name": "Black tea bags",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-herbal-tea",
+    "name": "Herbal tea",
+    "mealType": "drink",
+    "drinkFor": [
+      "dinner"
+    ],
+    "repeats": true,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Steep the herbal tea in hot water according to the label.",
+    "ingredients": [
+      {
+        "name": "Herbal tea bags",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-herbal-tea-with-honey",
+    "name": "Herbal tea with honey",
+    "mealType": "drink",
+    "drinkFor": [
+      "dinner"
+    ],
+    "repeats": true,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Steep the herbal tea in hot water according to the label and sweeten it with honey.",
+    "ingredients": [
+      {
+        "name": "Herbal tea bags",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Honey",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-iced-tea",
+    "name": "Iced tea",
+    "mealType": "drink",
+    "drinkFor": [
+      "lunch"
+    ],
+    "repeats": false,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Steep the tea bag in 1 cup of hot water according to the label and stir in the sugar. Let it cool, then chill or pour over ice.",
+    "ingredients": [
+      {
+        "name": "Black tea bags",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.03
+      }
+    ]
+  },
+  {
+    "id": "meal-lemon-water",
+    "name": "Lemon water",
+    "mealType": "drink",
+    "drinkFor": [
+      "lunch",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Stir the lemon juice into a glass of cold water.",
+    "ingredients": [
+      {
+        "name": "Bottled lemon juice",
+        "unit": "oz",
+        "qty": 0.25
+      }
+    ]
+  },
+  {
+    "id": "meal-glass-of-milk",
+    "name": "Glass of milk",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Pour a glass of cold milk.",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.0625
+      }
+    ]
+  },
+  {
+    "id": "meal-apple-juice",
+    "name": "Apple juice",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast",
+      "lunch"
+    ],
+    "repeats": false,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Serve the apple juice chilled.",
+    "ingredients": [
+      {
+        "name": "Bottled apple juice",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-soda",
+    "name": "Soda",
+    "mealType": "drink",
+    "drinkFor": [
+      "lunch",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Serve the soda chilled.",
+    "ingredients": [
+      {
+        "name": "Canned soda",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-sparkling-water",
+    "name": "Sparkling water",
+    "mealType": "drink",
+    "drinkFor": [
+      "lunch",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Serve the sparkling water chilled.",
+    "ingredients": [
+      {
+        "name": "Canned sparkling water",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-chocolate-shake",
+    "name": "Chocolate shake",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast",
+      "lunch"
+    ],
+    "repeats": false,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Serve the bottled shake chilled.",
+    "ingredients": [
+      {
+        "name": "Bottled chocolate shake",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-hot-chocolate",
+    "name": "Hot chocolate",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Mix a hot chocolate packet with hot water as directed.",
+    "ingredients": [
+      {
+        "name": "Hot chocolate packets",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-pepperoni-pizza-and-carrot-sticks",
+    "name": "Pepperoni pizza and carrot sticks",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 1,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza according to its package directions and serve a portion. Wash the carrots, cut them into sticks, and serve with dressing. Follow the package directions for storing leftover pizza.",
+    "ingredients": [
+      {
+        "name": "Frozen pepperoni pizza",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Carrots",
+        "unit": "lb",
+        "qty": 0.2
+      },
+      {
+        "name": "Bottled salad dressing",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-vegetable-pizza-and-peaches",
+    "name": "Vegetable pizza and peaches",
+    "mealType": "dinner",
+    "heatMethods": [
+      "oven"
+    ],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Bake the pizza according to its package directions and serve a portion with the drained peaches. Follow the package directions for storing leftover pizza.",
+    "ingredients": [
+      {
+        "name": "Frozen vegetable pizza",
+        "unit": "each",
+        "qty": 0.25
+      },
+      {
+        "name": "Canned peaches",
+        "unit": "can",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-soda-float",
+    "name": "Soda float",
+    "mealType": "snack",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 5,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Scoop the ice cream into a tall glass and slowly pour the soda over it.",
+    "ingredients": [
+      {
+        "name": "Vanilla ice cream",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Canned soda",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-chocolate-shake-float",
+    "name": "Chocolate shake float",
+    "mealType": "snack",
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 5,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Scoop the ice cream into a tall glass and pour the chilled shake over it.",
+    "ingredients": [
+      {
+        "name": "Vanilla ice cream",
+        "unit": "oz",
+        "qty": 2
+      },
+      {
+        "name": "Bottled chocolate shake",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-iced-mocha",
+    "name": "Iced mocha",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast"
+    ],
+    "repeats": false,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Brew the ground coffee with a filter and hot water and let it cool. Stir it into the chilled chocolate shake and serve over ice.",
+    "ingredients": [
+      {
+        "name": "Ground coffee",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Bottled chocolate shake",
+        "unit": "each",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": "meal-iced-coffee",
+    "name": "Iced coffee",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast",
+      "lunch"
+    ],
+    "repeats": false,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Stir the instant coffee and sugar into a little hot water until dissolved. Add cold milk and serve over ice.",
+    "ingredients": [
+      {
+        "name": "Instant coffee",
+        "unit": "oz",
+        "qty": 0.07
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.03
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.02
+      }
+    ]
+  },
+  {
+    "id": "meal-mocha-hot-chocolate",
+    "name": "Mocha hot chocolate",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast"
+    ],
+    "repeats": false,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Mix the hot chocolate packet and instant coffee with hot water as directed on the packet.",
+    "ingredients": [
+      {
+        "name": "Hot chocolate packets",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Instant coffee",
+        "unit": "oz",
+        "qty": 0.04
+      }
+    ]
+  },
+  {
+    "id": "meal-hot-chocolate-with-milk",
+    "name": "Hot chocolate with milk",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 5,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the milk until steaming, without boiling, and stir in the hot chocolate packet.",
+    "ingredients": [
+      {
+        "name": "Hot chocolate packets",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.0625
+      }
+    ]
+  },
+  {
+    "id": "meal-tea-with-milk",
+    "name": "Tea with milk",
+    "mealType": "drink",
+    "drinkFor": [
+      "dinner"
+    ],
+    "repeats": true,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Steep the black tea in hot water according to the label and add a splash of milk.",
+    "ingredients": [
+      {
+        "name": "Black tea bags",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "unit": "gallon",
+        "qty": 0.008
+      }
+    ]
+  },
+  {
+    "id": "meal-iced-herbal-tea",
+    "name": "Iced herbal tea",
+    "mealType": "drink",
+    "drinkFor": [
+      "lunch"
+    ],
+    "repeats": false,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Steep the herbal tea in 1 cup of hot water according to the label and stir in the honey. Let it cool, then chill or pour over ice.",
+    "ingredients": [
+      {
+        "name": "Herbal tea bags",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Honey",
+        "unit": "oz",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-soda-with-lemon",
+    "name": "Soda with lemon",
+    "mealType": "drink",
+    "drinkFor": [
+      "lunch",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Pour the soda over ice and add a splash of lemon juice.",
+    "ingredients": [
+      {
+        "name": "Canned soda",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Bottled lemon juice",
+        "unit": "oz",
+        "qty": 0.1
+      }
+    ]
+  },
+  {
+    "id": "meal-sparkling-lemonade",
+    "name": "Sparkling lemonade",
+    "mealType": "drink",
+    "drinkFor": [
+      "lunch",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Stir the lemon juice and sugar into a little water until the sugar dissolves, then top with the sparkling water.",
+    "ingredients": [
+      {
+        "name": "Canned sparkling water",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Bottled lemon juice",
+        "unit": "oz",
+        "qty": 0.5
+      },
+      {
+        "name": "Granulated sugar",
+        "unit": "lb",
+        "qty": 0.04
+      }
+    ]
+  },
+  {
+    "id": "meal-apple-spritzer",
+    "name": "Apple spritzer",
+    "mealType": "drink",
+    "drinkFor": [
+      "lunch",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Fill a glass halfway with apple juice and top with sparkling water.",
+    "ingredients": [
+      {
+        "name": "Bottled apple juice",
+        "unit": "each",
+        "qty": 0.5
+      },
+      {
+        "name": "Canned sparkling water",
+        "unit": "each",
+        "qty": 0.5
+      }
+    ]
+  },
+  {
+    "id": "meal-warm-spiced-apple-juice",
+    "name": "Warm spiced apple juice",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast",
+      "dinner"
+    ],
+    "repeats": false,
+    "heatMethods": [
+      "microwave",
+      "hotplate"
+    ],
+    "spice": 0,
+    "taste": 4,
+    "servings": 1,
+    "prep": 1,
+    "directions": "Heat the apple juice with the cinnamon until steaming, stirring once.",
+    "ingredients": [
+      {
+        "name": "Bottled apple juice",
+        "unit": "each",
+        "qty": 1
+      },
+      {
+        "name": "Ground cinnamon",
+        "unit": "oz",
+        "qty": 0.02
+      }
+    ]
+  },
+  {
+    "id": "meal-water",
+    "name": "Water",
+    "mealType": "drink",
+    "drinkFor": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "repeats": false,
+    "fallback": true,
+    "heatMethods": [],
+    "spice": 0,
+    "taste": 3,
+    "servings": 1,
+    "prep": 0,
+    "directions": "Pour a glass of cold tap water.",
+    "ingredients": []
+  }
+]

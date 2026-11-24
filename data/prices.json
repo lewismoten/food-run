@@ -1,0 +1,964 @@
+[
+  {
+    "id": "price-canned-green-beans",
+    "name": "Canned green beans",
+    "unit": "oz",
+    "qty": 14.5,
+    "price": 0.6,
+    "estimated": true
+  },
+  {
+    "id": "price-gala-apples",
+    "name": "Gala apples",
+    "unit": "lb",
+    "qty": 3,
+    "price": 2.6,
+    "estimated": true
+  },
+  {
+    "id": "price-corn-muffin-mix",
+    "name": "Corn muffin mix",
+    "unit": "oz",
+    "qty": 8.5,
+    "price": 0.6,
+    "estimated": true
+  },
+  {
+    "id": "price-rice",
+    "name": "Rice",
+    "unit": "lb",
+    "qty": 5,
+    "price": 4.1,
+    "estimated": true
+  },
+  {
+    "id": "price-dry-beans",
+    "name": "Dry beans",
+    "unit": "lb",
+    "qty": 1,
+    "price": 1.3,
+    "estimated": true
+  },
+  {
+    "id": "price-lentils",
+    "name": "Lentils",
+    "unit": "lb",
+    "qty": 1,
+    "price": 2.1,
+    "estimated": true
+  },
+  {
+    "id": "price-oatmeal",
+    "name": "Oatmeal",
+    "unit": "oz",
+    "qty": 42,
+    "price": 4.9,
+    "estimated": true
+  },
+  {
+    "id": "price-pasta",
+    "name": "Pasta",
+    "unit": "lb",
+    "qty": 1,
+    "price": 1.6,
+    "estimated": true
+  },
+  {
+    "id": "price-eggs",
+    "name": "Eggs",
+    "unit": "each",
+    "qty": 12,
+    "price": 2.0,
+    "estimated": true
+  },
+  {
+    "id": "price-peanut-butter",
+    "name": "Peanut butter",
+    "unit": "oz",
+    "qty": 16,
+    "price": 2.6,
+    "estimated": true
+  },
+  {
+    "id": "price-potatoes",
+    "name": "Potatoes",
+    "unit": "lb",
+    "qty": 5,
+    "price": 4.6,
+    "estimated": true
+  },
+  {
+    "id": "price-carrots",
+    "name": "Carrots",
+    "unit": "lb",
+    "qty": 2,
+    "price": 2.2,
+    "estimated": true
+  },
+  {
+    "id": "price-cabbage",
+    "name": "Cabbage",
+    "unit": "lb",
+    "qty": 1,
+    "price": 1.2,
+    "estimated": true
+  },
+  {
+    "id": "price-bananas",
+    "name": "Bananas",
+    "unit": "lb",
+    "qty": 1,
+    "price": 0.7,
+    "estimated": true
+  },
+  {
+    "id": "price-milk",
+    "name": "Milk",
+    "unit": "gallon",
+    "qty": 1,
+    "price": 4.1,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-vegetables",
+    "name": "Frozen vegetables",
+    "unit": "oz",
+    "qty": 12,
+    "price": 1.2,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-tuna",
+    "name": "Canned tuna",
+    "unit": "can",
+    "qty": 1,
+    "price": 1.2,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-beans",
+    "name": "Canned beans",
+    "unit": "can",
+    "qty": 1,
+    "price": 1.1,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-tomatoes",
+    "name": "Canned tomatoes",
+    "unit": "can",
+    "qty": 1,
+    "price": 1.2,
+    "estimated": true
+  },
+  {
+    "id": "price-saltine-crackers",
+    "name": "Saltine crackers",
+    "unit": "oz",
+    "qty": 16,
+    "price": 2.2,
+    "estimated": true
+  },
+  {
+    "id": "price-condensed-chicken-noodle-soup",
+    "name": "Condensed chicken noodle soup",
+    "unit": "can",
+    "qty": 1,
+    "price": 1.0,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-bean-and-cheese-burritos",
+    "name": "Frozen bean and cheese burritos",
+    "unit": "each",
+    "qty": 8,
+    "price": 6.3,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-pepperoni-pizza",
+    "name": "Frozen pepperoni pizza",
+    "unit": "each",
+    "qty": 1,
+    "price": 5.2,
+    "estimated": true
+  },
+  {
+    "id": "price-butter",
+    "name": "Butter",
+    "unit": "oz",
+    "qty": 16,
+    "price": 4.5,
+    "estimated": true
+  },
+  {
+    "id": "price-soy-sauce",
+    "name": "Soy sauce",
+    "unit": "oz",
+    "qty": 10,
+    "price": 2.6,
+    "estimated": true,
+    "packageAmount": 10,
+    "packageUnit": "oz"
+  },
+  {
+    "id": "price-hot-sauce",
+    "name": "Hot sauce",
+    "unit": "oz",
+    "qty": 5,
+    "price": 2.2,
+    "estimated": true,
+    "packageAmount": 5,
+    "packageUnit": "oz"
+  },
+  {
+    "id": "price-chili-powder",
+    "name": "Chili powder",
+    "unit": "oz",
+    "qty": 2.5,
+    "price": 1.5,
+    "estimated": true,
+    "packageAmount": 2.5,
+    "packageUnit": "oz"
+  },
+  {
+    "id": "price-kidney-beans",
+    "name": "Kidney beans",
+    "unit": "can",
+    "qty": 1,
+    "price": 1.1,
+    "estimated": true,
+    "servingsPerPackage": 1,
+    "packageAmount": 1,
+    "packageUnit": "can"
+  },
+  {
+    "id": "price-canned-chili",
+    "name": "Canned chili",
+    "unit": "can",
+    "qty": 1,
+    "price": 2.1,
+    "estimated": true,
+    "servingsPerPackage": 1,
+    "packageAmount": 1,
+    "packageUnit": "can"
+  },
+  {
+    "id": "price-tomato-sauce",
+    "name": "Tomato sauce",
+    "unit": "can",
+    "qty": 1,
+    "price": 1.1,
+    "estimated": true,
+    "servingsPerPackage": 1,
+    "packageAmount": 1,
+    "packageUnit": "can"
+  },
+  {
+    "id": "price-egg-noodles",
+    "name": "Egg noodles",
+    "unit": "oz",
+    "qty": 12,
+    "price": 2.1,
+    "estimated": true,
+    "servingsPerPackage": 6,
+    "packageAmount": 12,
+    "packageUnit": "oz"
+  },
+  {
+    "id": "price-elbow-macaroni",
+    "name": "Elbow macaroni",
+    "unit": "oz",
+    "qty": 16,
+    "price": 1.4,
+    "estimated": true,
+    "servingsPerPackage": 8,
+    "packageAmount": 16,
+    "packageUnit": "oz"
+  },
+  {
+    "id": "price-cheddar-cheese",
+    "name": "Cheddar cheese",
+    "unit": "oz",
+    "qty": 8,
+    "price": 2.6,
+    "estimated": true,
+    "servingsPerPackage": 8,
+    "packageAmount": 8,
+    "packageUnit": "oz"
+  },
+  {
+    "id": "price-onions",
+    "name": "Onions",
+    "unit": "lb",
+    "qty": 2,
+    "price": 2.3,
+    "estimated": true,
+    "servingsPerPackage": 8,
+    "packageAmount": 2,
+    "packageUnit": "lb"
+  },
+  {
+    "id": "price-garlic-powder",
+    "name": "Garlic powder",
+    "unit": "oz",
+    "qty": 3,
+    "price": 1.5,
+    "estimated": true,
+    "servingsPerPackage": 8,
+    "packageAmount": 3,
+    "packageUnit": "oz"
+  },
+  {
+    "id": "price-canned-corn",
+    "name": "Canned corn",
+    "unit": "can",
+    "qty": 1,
+    "price": 1.1,
+    "estimated": true,
+    "servingsPerPackage": 1,
+    "packageAmount": 1,
+    "packageUnit": "can"
+  },
+  {
+    "id": "price-salsa",
+    "name": "Salsa",
+    "unit": "oz",
+    "qty": 16,
+    "price": 2.3,
+    "estimated": true,
+    "servingsPerPackage": 4,
+    "packageAmount": 16,
+    "packageUnit": "oz"
+  },
+  {
+    "id": "price-ground-turkey",
+    "name": "Ground turkey",
+    "unit": "lb",
+    "qty": 1,
+    "price": 5.2,
+    "estimated": true,
+    "servingsPerPackage": 4,
+    "packageAmount": 1,
+    "packageUnit": "lb"
+  },
+  {
+    "id": "price-jalapenos",
+    "name": "Jalapeños",
+    "unit": "oz",
+    "qty": 8,
+    "price": 1.9,
+    "estimated": true,
+    "servingsPerPackage": 8,
+    "packageAmount": 8,
+    "packageUnit": "oz"
+  },
+  {
+    "id": "price-condensed-tomato-soup",
+    "name": "Condensed tomato soup",
+    "unit": "can",
+    "qty": 1,
+    "price": 1.4,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-vegetable-soup",
+    "name": "Canned vegetable soup",
+    "unit": "can",
+    "qty": 1,
+    "price": 2.2,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-chicken-and-rice-soup",
+    "name": "Canned chicken and rice soup",
+    "unit": "can",
+    "qty": 1,
+    "price": 2.3,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-vegetable-beef-soup",
+    "name": "Canned vegetable beef soup",
+    "unit": "can",
+    "qty": 1,
+    "price": 2.6,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-minestrone",
+    "name": "Canned minestrone",
+    "unit": "can",
+    "qty": 1,
+    "price": 2.4,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-potato-soup",
+    "name": "Canned potato soup",
+    "unit": "can",
+    "qty": 1,
+    "price": 2.3,
+    "estimated": true
+  },
+  {
+    "id": "price-instant-ramen-packets",
+    "name": "Instant ramen packets",
+    "unit": "each",
+    "qty": 6,
+    "price": 2.8,
+    "estimated": true
+  },
+  {
+    "id": "price-instant-noodle-cups",
+    "name": "Instant noodle cups",
+    "unit": "each",
+    "qty": 3,
+    "price": 3.1,
+    "estimated": true
+  },
+  {
+    "id": "price-rice-noodles",
+    "name": "Rice noodles",
+    "unit": "oz",
+    "qty": 8,
+    "price": 2.8,
+    "estimated": true
+  },
+  {
+    "id": "price-boxed-macaroni-and-cheese",
+    "name": "Boxed macaroni and cheese",
+    "unit": "each",
+    "qty": 1,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-spaghetti",
+    "name": "Spaghetti",
+    "unit": "lb",
+    "qty": 1,
+    "price": 1.7,
+    "estimated": true
+  },
+  {
+    "id": "price-flour-tortillas",
+    "name": "Flour tortillas",
+    "unit": "each",
+    "qty": 10,
+    "price": 2.7,
+    "estimated": true
+  },
+  {
+    "id": "price-crunchy-taco-shells",
+    "name": "Crunchy taco shells",
+    "unit": "each",
+    "qty": 12,
+    "price": 2.5,
+    "estimated": true
+  },
+  {
+    "id": "price-taco-seasoning",
+    "name": "Taco seasoning",
+    "unit": "each",
+    "qty": 1,
+    "price": 0.9,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-refried-beans",
+    "name": "Canned refried beans",
+    "unit": "can",
+    "qty": 1,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-ground-beef",
+    "name": "Ground beef",
+    "unit": "lb",
+    "qty": 1,
+    "price": 6.5,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-cheese-pizza",
+    "name": "Frozen cheese pizza",
+    "unit": "each",
+    "qty": 1,
+    "price": 5.3,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-vegetable-pizza",
+    "name": "Frozen vegetable pizza",
+    "unit": "each",
+    "qty": 1,
+    "price": 6.5,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-pizza-rolls",
+    "name": "Frozen pizza rolls",
+    "unit": "oz",
+    "qty": 20,
+    "price": 5.2,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-chicken-tv-dinner",
+    "name": "Frozen chicken TV dinner",
+    "unit": "each",
+    "qty": 1,
+    "price": 3.5,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-salisbury-steak-tv-dinner",
+    "name": "Frozen Salisbury steak TV dinner",
+    "unit": "each",
+    "qty": 1,
+    "price": 3.4,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-single-serve-lasagna",
+    "name": "Frozen single-serve lasagna",
+    "unit": "each",
+    "qty": 1,
+    "price": 3.8,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-chicken-nuggets",
+    "name": "Frozen chicken nuggets",
+    "unit": "oz",
+    "qty": 24,
+    "price": 6.7,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-french-fries",
+    "name": "Frozen french fries",
+    "unit": "oz",
+    "qty": 28,
+    "price": 4.1,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-broccoli",
+    "name": "Frozen broccoli",
+    "unit": "oz",
+    "qty": 12,
+    "price": 1.7,
+    "estimated": true
+  },
+  {
+    "id": "price-frozen-mixed-berries",
+    "name": "Frozen mixed berries",
+    "unit": "oz",
+    "qty": 16,
+    "price": 4.4,
+    "estimated": true
+  },
+  {
+    "id": "price-vanilla-ice-cream",
+    "name": "Vanilla ice cream",
+    "unit": "oz",
+    "qty": 48,
+    "price": 4.9,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-soda",
+    "name": "Canned soda",
+    "unit": "each",
+    "qty": 12,
+    "price": 7.5,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-sparkling-water",
+    "name": "Canned sparkling water",
+    "unit": "each",
+    "qty": 8,
+    "price": 4.5,
+    "estimated": true
+  },
+  {
+    "id": "price-bottled-apple-juice",
+    "name": "Bottled apple juice",
+    "unit": "each",
+    "qty": 6,
+    "price": 4.4,
+    "estimated": true
+  },
+  {
+    "id": "price-ground-coffee",
+    "name": "Ground coffee",
+    "unit": "oz",
+    "qty": 12,
+    "price": 8.0,
+    "estimated": true
+  },
+  {
+    "id": "price-instant-coffee",
+    "name": "Instant coffee",
+    "unit": "oz",
+    "qty": 4,
+    "price": 5.5,
+    "estimated": true
+  },
+  {
+    "id": "price-black-tea-bags",
+    "name": "Black tea bags",
+    "unit": "each",
+    "qty": 20,
+    "price": 2.9,
+    "estimated": true
+  },
+  {
+    "id": "price-herbal-tea-bags",
+    "name": "Herbal tea bags",
+    "unit": "each",
+    "qty": 20,
+    "price": 3.8,
+    "estimated": true
+  },
+  {
+    "id": "price-chocolate-bars",
+    "name": "Chocolate bars",
+    "unit": "each",
+    "qty": 1,
+    "price": 1.7,
+    "estimated": true
+  },
+  {
+    "id": "price-hot-chocolate-packets",
+    "name": "Hot chocolate packets",
+    "unit": "each",
+    "qty": 8,
+    "price": 2.9,
+    "estimated": true
+  },
+  {
+    "id": "price-chocolate-syrup",
+    "name": "Chocolate syrup",
+    "unit": "oz",
+    "qty": 24,
+    "price": 3.5,
+    "estimated": true
+  },
+  {
+    "id": "price-bottled-chocolate-shake",
+    "name": "Bottled chocolate shake",
+    "unit": "each",
+    "qty": 1,
+    "price": 2.8,
+    "estimated": true
+  },
+  {
+    "id": "price-roasted-peanuts",
+    "name": "Roasted peanuts",
+    "unit": "oz",
+    "qty": 16,
+    "price": 3.6,
+    "estimated": true
+  },
+  {
+    "id": "price-mixed-nuts",
+    "name": "Mixed nuts",
+    "unit": "oz",
+    "qty": 10,
+    "price": 6.0,
+    "estimated": true
+  },
+  {
+    "id": "price-sweet-potatoes",
+    "name": "Sweet potatoes",
+    "unit": "lb",
+    "qty": 1,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-yams",
+    "name": "Canned yams",
+    "unit": "can",
+    "qty": 1,
+    "price": 2.6,
+    "estimated": true
+  },
+  {
+    "id": "price-oranges",
+    "name": "Oranges",
+    "unit": "lb",
+    "qty": 3,
+    "price": 4.8,
+    "estimated": true
+  },
+  {
+    "id": "price-grapes",
+    "name": "Grapes",
+    "unit": "lb",
+    "qty": 2,
+    "price": 5.5,
+    "estimated": true
+  },
+  {
+    "id": "price-canned-peaches",
+    "name": "Canned peaches",
+    "unit": "can",
+    "qty": 1,
+    "price": 2.1,
+    "estimated": true
+  },
+  {
+    "id": "price-fruit-cups",
+    "name": "Fruit cups",
+    "unit": "each",
+    "qty": 4,
+    "price": 3.1,
+    "estimated": true
+  },
+  {
+    "id": "price-romaine-hearts",
+    "name": "Romaine hearts",
+    "unit": "each",
+    "qty": 3,
+    "price": 4.3,
+    "estimated": true
+  },
+  {
+    "id": "price-bagged-salad-greens",
+    "name": "Bagged salad greens",
+    "unit": "oz",
+    "qty": 8,
+    "price": 3.0,
+    "estimated": true
+  },
+  {
+    "id": "price-bagged-salad-kit",
+    "name": "Bagged salad kit",
+    "unit": "each",
+    "qty": 1,
+    "price": 4.4,
+    "estimated": true
+  },
+  {
+    "id": "price-cherry-tomatoes",
+    "name": "Cherry tomatoes",
+    "unit": "oz",
+    "qty": 10,
+    "price": 3.0,
+    "estimated": true
+  },
+  {
+    "id": "price-bottled-salad-dressing",
+    "name": "Bottled salad dressing",
+    "unit": "oz",
+    "qty": 16,
+    "price": 3.0,
+    "estimated": true
+  },
+  {
+    "id": "price-all-purpose-flour",
+    "name": "All-purpose flour",
+    "unit": "lb",
+    "qty": 5,
+    "price": 3.0,
+    "estimated": true
+  },
+  {
+    "id": "price-granulated-sugar",
+    "name": "Granulated sugar",
+    "unit": "lb",
+    "qty": 4,
+    "price": 3.5,
+    "estimated": true
+  },
+  {
+    "id": "price-brown-sugar",
+    "name": "Brown sugar",
+    "unit": "lb",
+    "qty": 2,
+    "price": 2.5,
+    "estimated": true
+  },
+  {
+    "id": "price-vegetable-oil",
+    "name": "Vegetable oil",
+    "unit": "oz",
+    "qty": 48,
+    "price": 4.0,
+    "estimated": true
+  },
+  {
+    "id": "price-vanilla-extract",
+    "name": "Vanilla extract",
+    "unit": "oz",
+    "qty": 2,
+    "price": 4.0,
+    "estimated": true
+  },
+  {
+    "id": "price-baking-powder",
+    "name": "Baking powder",
+    "unit": "oz",
+    "qty": 8.1,
+    "price": 1.8,
+    "estimated": true
+  },
+  {
+    "id": "price-baking-soda",
+    "name": "Baking soda",
+    "unit": "oz",
+    "qty": 16,
+    "price": 1.0,
+    "estimated": true
+  },
+  {
+    "id": "price-salt",
+    "name": "Salt",
+    "unit": "oz",
+    "qty": 26,
+    "price": 1.0,
+    "estimated": true
+  },
+  {
+    "id": "price-ground-cinnamon",
+    "name": "Ground cinnamon",
+    "unit": "oz",
+    "qty": 2.4,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-cornmeal",
+    "name": "Cornmeal",
+    "unit": "lb",
+    "qty": 2,
+    "price": 2.5,
+    "estimated": true
+  },
+  {
+    "id": "price-active-dry-yeast",
+    "name": "Active dry yeast",
+    "unit": "each",
+    "qty": 3,
+    "price": 1.8,
+    "estimated": true
+  },
+  {
+    "id": "price-unsweetened-cocoa-powder",
+    "name": "Unsweetened cocoa powder",
+    "unit": "oz",
+    "qty": 8,
+    "price": 3.5,
+    "estimated": true
+  },
+  {
+    "id": "price-black-pepper",
+    "name": "Black pepper",
+    "unit": "oz",
+    "qty": 3,
+    "price": 2.0,
+    "estimated": true
+  },
+  {
+    "id": "price-ketchup",
+    "name": "Ketchup",
+    "unit": "oz",
+    "qty": 20,
+    "price": 2.0,
+    "estimated": true
+  },
+  {
+    "id": "price-mayonnaise",
+    "name": "Mayonnaise",
+    "unit": "oz",
+    "qty": 30,
+    "price": 4.5,
+    "estimated": true
+  },
+  {
+    "id": "price-onion-powder",
+    "name": "Onion powder",
+    "unit": "oz",
+    "qty": 2.6,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-italian-seasoning",
+    "name": "Italian seasoning",
+    "unit": "oz",
+    "qty": 0.9,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-paprika",
+    "name": "Paprika",
+    "unit": "oz",
+    "qty": 2.5,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-ground-cumin",
+    "name": "Ground cumin",
+    "unit": "oz",
+    "qty": 1.5,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-red-pepper-flakes",
+    "name": "Red pepper flakes",
+    "unit": "oz",
+    "qty": 1.5,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-grated-parmesan-cheese",
+    "name": "Grated parmesan cheese",
+    "unit": "oz",
+    "qty": 8,
+    "price": 3.5,
+    "estimated": true
+  },
+  {
+    "id": "price-barbecue-sauce",
+    "name": "Barbecue sauce",
+    "unit": "oz",
+    "qty": 18,
+    "price": 1.5,
+    "estimated": true
+  },
+  {
+    "id": "price-honey",
+    "name": "Honey",
+    "unit": "oz",
+    "qty": 12,
+    "price": 4.0,
+    "estimated": true
+  },
+  {
+    "id": "price-bottled-lemon-juice",
+    "name": "Bottled lemon juice",
+    "unit": "oz",
+    "qty": 15,
+    "price": 2.0,
+    "estimated": true
+  },
+  {
+    "id": "price-pancake-syrup",
+    "name": "Pancake syrup",
+    "unit": "oz",
+    "qty": 24,
+    "price": 3.0,
+    "estimated": true
+  }
+]

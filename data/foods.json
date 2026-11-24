@@ -1,0 +1,824 @@
+[
+  {
+    "id": "food-rice",
+    "name": "Rice",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-dry-beans",
+    "name": "Dry beans",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-lentils",
+    "name": "Lentils",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-oatmeal",
+    "name": "Oatmeal",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-pasta",
+    "name": "Pasta",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-eggs",
+    "name": "Eggs",
+    "unit": "each",
+    "storage": "refrigerated",
+    "needsCooking": true
+  },
+  {
+    "id": "food-peanut-butter",
+    "name": "Peanut butter",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-potatoes",
+    "name": "Potatoes",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-carrots",
+    "name": "Carrots",
+    "unit": "lb",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-cabbage",
+    "name": "Cabbage",
+    "unit": "lb",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-bananas",
+    "name": "Bananas",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-milk",
+    "name": "Milk",
+    "unit": "gallon",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-frozen-vegetables",
+    "name": "Frozen vegetables",
+    "unit": "oz",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-canned-tuna",
+    "name": "Canned tuna",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-canned-beans",
+    "name": "Canned beans",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-canned-tomatoes",
+    "name": "Canned tomatoes",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-canned-green-beans",
+    "name": "Canned green beans",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-gala-apples",
+    "name": "Gala apples",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-corn-muffin-mix",
+    "name": "Corn muffin mix",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-saltine-crackers",
+    "name": "Saltine crackers",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-condensed-chicken-noodle-soup",
+    "name": "Condensed chicken noodle soup",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-bean-and-cheese-burritos",
+    "name": "Frozen bean and cheese burritos",
+    "unit": "each",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-pepperoni-pizza",
+    "name": "Frozen pepperoni pizza",
+    "unit": "each",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-butter",
+    "name": "Butter",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-soy-sauce",
+    "name": "Soy sauce",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-hot-sauce",
+    "name": "Hot sauce",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-chili-powder",
+    "name": "Chili powder",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-kidney-beans",
+    "name": "Kidney beans",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-canned-chili",
+    "name": "Canned chili",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-tomato-sauce",
+    "name": "Tomato sauce",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-egg-noodles",
+    "name": "Egg noodles",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-elbow-macaroni",
+    "name": "Elbow macaroni",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-cheddar-cheese",
+    "name": "Cheddar cheese",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-onions",
+    "name": "Onions",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-garlic-powder",
+    "name": "Garlic powder",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-canned-corn",
+    "name": "Canned corn",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-salsa",
+    "name": "Salsa",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-ground-turkey",
+    "name": "Ground turkey",
+    "unit": "lb",
+    "storage": "refrigerated",
+    "needsCooking": true
+  },
+  {
+    "id": "food-jalapenos",
+    "name": "Jalapeños",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-condensed-tomato-soup",
+    "name": "Condensed tomato soup",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-canned-vegetable-soup",
+    "name": "Canned vegetable soup",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-canned-chicken-and-rice-soup",
+    "name": "Canned chicken and rice soup",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-canned-vegetable-beef-soup",
+    "name": "Canned vegetable beef soup",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-canned-minestrone",
+    "name": "Canned minestrone",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-canned-potato-soup",
+    "name": "Canned potato soup",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-instant-ramen-packets",
+    "name": "Instant ramen packets",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-instant-noodle-cups",
+    "name": "Instant noodle cups",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-rice-noodles",
+    "name": "Rice noodles",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-boxed-macaroni-and-cheese",
+    "name": "Boxed macaroni and cheese",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-spaghetti",
+    "name": "Spaghetti",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-flour-tortillas",
+    "name": "Flour tortillas",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-crunchy-taco-shells",
+    "name": "Crunchy taco shells",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-taco-seasoning",
+    "name": "Taco seasoning",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-canned-refried-beans",
+    "name": "Canned refried beans",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-ground-beef",
+    "name": "Ground beef",
+    "unit": "lb",
+    "storage": "refrigerated",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-cheese-pizza",
+    "name": "Frozen cheese pizza",
+    "unit": "each",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-vegetable-pizza",
+    "name": "Frozen vegetable pizza",
+    "unit": "each",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-pizza-rolls",
+    "name": "Frozen pizza rolls",
+    "unit": "oz",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-chicken-tv-dinner",
+    "name": "Frozen chicken TV dinner",
+    "unit": "each",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-salisbury-steak-tv-dinner",
+    "name": "Frozen Salisbury steak TV dinner",
+    "unit": "each",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-single-serve-lasagna",
+    "name": "Frozen single-serve lasagna",
+    "unit": "each",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-chicken-nuggets",
+    "name": "Frozen chicken nuggets",
+    "unit": "oz",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-french-fries",
+    "name": "Frozen french fries",
+    "unit": "oz",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-broccoli",
+    "name": "Frozen broccoli",
+    "unit": "oz",
+    "storage": "frozen",
+    "needsCooking": true
+  },
+  {
+    "id": "food-frozen-mixed-berries",
+    "name": "Frozen mixed berries",
+    "unit": "oz",
+    "storage": "frozen",
+    "needsCooking": false
+  },
+  {
+    "id": "food-vanilla-ice-cream",
+    "name": "Vanilla ice cream",
+    "unit": "oz",
+    "storage": "frozen",
+    "needsCooking": false
+  },
+  {
+    "id": "food-canned-soda",
+    "name": "Canned soda",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-canned-sparkling-water",
+    "name": "Canned sparkling water",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-bottled-apple-juice",
+    "name": "Bottled apple juice",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-ground-coffee",
+    "name": "Ground coffee",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-instant-coffee",
+    "name": "Instant coffee",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-black-tea-bags",
+    "name": "Black tea bags",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-herbal-tea-bags",
+    "name": "Herbal tea bags",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-chocolate-bars",
+    "name": "Chocolate bars",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-hot-chocolate-packets",
+    "name": "Hot chocolate packets",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-chocolate-syrup",
+    "name": "Chocolate syrup",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-bottled-chocolate-shake",
+    "name": "Bottled chocolate shake",
+    "unit": "each",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-roasted-peanuts",
+    "name": "Roasted peanuts",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-mixed-nuts",
+    "name": "Mixed nuts",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-sweet-potatoes",
+    "name": "Sweet potatoes",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-canned-yams",
+    "name": "Canned yams",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-oranges",
+    "name": "Oranges",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-grapes",
+    "name": "Grapes",
+    "unit": "lb",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-canned-peaches",
+    "name": "Canned peaches",
+    "unit": "can",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-fruit-cups",
+    "name": "Fruit cups",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-romaine-hearts",
+    "name": "Romaine hearts",
+    "unit": "each",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-bagged-salad-greens",
+    "name": "Bagged salad greens",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-bagged-salad-kit",
+    "name": "Bagged salad kit",
+    "unit": "each",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-cherry-tomatoes",
+    "name": "Cherry tomatoes",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-bottled-salad-dressing",
+    "name": "Bottled salad dressing",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-all-purpose-flour",
+    "name": "All-purpose flour",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-granulated-sugar",
+    "name": "Granulated sugar",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-brown-sugar",
+    "name": "Brown sugar",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-vegetable-oil",
+    "name": "Vegetable oil",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-vanilla-extract",
+    "name": "Vanilla extract",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-baking-powder",
+    "name": "Baking powder",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-baking-soda",
+    "name": "Baking soda",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-salt",
+    "name": "Salt",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-ground-cinnamon",
+    "name": "Ground cinnamon",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-cornmeal",
+    "name": "Cornmeal",
+    "unit": "lb",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-active-dry-yeast",
+    "name": "Active dry yeast",
+    "unit": "each",
+    "storage": "shelf",
+    "needsCooking": true
+  },
+  {
+    "id": "food-unsweetened-cocoa-powder",
+    "name": "Unsweetened cocoa powder",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-black-pepper",
+    "name": "Black pepper",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-ketchup",
+    "name": "Ketchup",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-mayonnaise",
+    "name": "Mayonnaise",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-onion-powder",
+    "name": "Onion powder",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-italian-seasoning",
+    "name": "Italian seasoning",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-paprika",
+    "name": "Paprika",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-ground-cumin",
+    "name": "Ground cumin",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-red-pepper-flakes",
+    "name": "Red pepper flakes",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-grated-parmesan-cheese",
+    "name": "Grated parmesan cheese",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-barbecue-sauce",
+    "name": "Barbecue sauce",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false,
+    "basic": true
+  },
+  {
+    "id": "food-honey",
+    "name": "Honey",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  },
+  {
+    "id": "food-bottled-lemon-juice",
+    "name": "Bottled lemon juice",
+    "unit": "oz",
+    "storage": "refrigerated",
+    "needsCooking": false
+  },
+  {
+    "id": "food-pancake-syrup",
+    "name": "Pancake syrup",
+    "unit": "oz",
+    "storage": "shelf",
+    "needsCooking": false
+  }
+]

@@ -1,0 +1,266 @@
+{
+  "foods": [
+    {
+      "name": "Rice",
+      "qty": 4,
+      "unit": "cup",
+      "minimum": 1
+    },
+    {
+      "name": "Dry beans",
+      "qty": 2,
+      "unit": "cup",
+      "minimum": 1
+    },
+    {
+      "name": "Oatmeal",
+      "qty": 5,
+      "unit": "cup",
+      "minimum": 2
+    },
+    {
+      "name": "Eggs",
+      "qty": 6,
+      "unit": "each",
+      "minimum": 2
+    },
+    {
+      "name": "Potatoes",
+      "qty": 5,
+      "unit": "each",
+      "minimum": 2
+    },
+    {
+      "name": "Peanut butter",
+      "qty": 12,
+      "unit": "oz",
+      "minimum": 3
+    },
+    {
+      "name": "Frozen vegetables",
+      "qty": 4,
+      "unit": "cup",
+      "minimum": 2
+    },
+    {
+      "name": "Pasta",
+      "qty": 2,
+      "unit": "lb",
+      "minimum": 1
+    },
+    {
+      "name": "Gala apples",
+      "unit": "lb",
+      "qty": 0,
+      "minimum": 0
+    },
+    {
+      "name": "Bananas",
+      "unit": "lb",
+      "qty": 0,
+      "minimum": 0
+    },
+    {
+      "name": "Roasted peanuts",
+      "unit": "oz",
+      "qty": 0,
+      "minimum": 0
+    }
+  ],
+  "prices": [
+    {
+      "name": "Rice",
+      "qty": 10,
+      "price": 5
+    },
+    {
+      "name": "Dry beans",
+      "qty": 4,
+      "price": 3
+    },
+    {
+      "name": "Oatmeal",
+      "qty": 12,
+      "price": 4
+    },
+    {
+      "name": "Eggs",
+      "qty": 12,
+      "price": 3.5
+    },
+    {
+      "name": "Potatoes",
+      "qty": 10,
+      "price": 4
+    },
+    {
+      "name": "Peanut butter",
+      "qty": 16,
+      "price": 2.5
+    },
+    {
+      "name": "Frozen vegetables",
+      "qty": 4,
+      "price": 1.5
+    },
+    {
+      "name": "Pasta",
+      "qty": 1,
+      "price": 1.25
+    },
+    {
+      "name": "Gala apples",
+      "qty": 3,
+      "price": 2.6
+    },
+    {
+      "name": "Bananas",
+      "qty": 1,
+      "price": 0.7
+    },
+    {
+      "name": "Roasted peanuts",
+      "qty": 16,
+      "price": 3.6
+    }
+  ],
+  "meals": [
+    {
+      "name": "Rice and beans",
+      "servings": 2,
+      "taste": 4,
+      "mealType": "dinner",
+      "heatMethods": [
+        "hotplate"
+      ],
+      "directions": "Soak and cook the dry beans until fully tender. Cook the rice in water. Heat the vegetables and combine.",
+      "ingredients": [
+        {
+          "name": "Rice",
+          "qty": 1
+        },
+        {
+          "name": "Dry beans",
+          "qty": 1
+        },
+        {
+          "name": "Frozen vegetables",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "name": "Peanut butter oatmeal",
+      "servings": 1,
+      "taste": 4,
+      "mealType": "breakfast",
+      "heatMethods": [
+        "microwave"
+      ],
+      "directions": "Mix oats with water. Microwave until soft, then stir in peanut butter.",
+      "ingredients": [
+        {
+          "name": "Oatmeal",
+          "qty": 0.5
+        },
+        {
+          "name": "Peanut butter",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "name": "Eggs and potatoes",
+      "servings": 1,
+      "taste": 3,
+      "mealType": "any",
+      "heatMethods": [
+        "microwave"
+      ],
+      "directions": "Pierce and microwave the potato until tender. Beat eggs in a microwave-safe mug and heat in short bursts until fully set.",
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "qty": 2
+        },
+        {
+          "name": "Potatoes",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "name": "Pasta and vegetables",
+      "servings": 2,
+      "taste": 3,
+      "mealType": "dinner",
+      "heatMethods": [
+        "hotplate"
+      ],
+      "directions": "Boil pasta until tender. Cook the frozen vegetables and combine.",
+      "ingredients": [
+        {
+          "name": "Pasta",
+          "qty": 0.5
+        },
+        {
+          "name": "Frozen vegetables",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "name": "Sliced apple",
+      "mealType": "snack",
+      "heatMethods": [],
+      "taste": 3,
+      "servings": 1,
+      "directions": "Slice the apple.",
+      "ingredients": [
+        {
+          "name": "Gala apples",
+          "unit": "lb",
+          "qty": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Banana",
+      "mealType": "snack",
+      "heatMethods": [],
+      "taste": 3,
+      "servings": 1,
+      "directions": "Peel the banana.",
+      "ingredients": [
+        {
+          "name": "Bananas",
+          "unit": "lb",
+          "qty": 0.3
+        }
+      ]
+    },
+    {
+      "name": "Roasted peanuts snack",
+      "mealType": "snack",
+      "heatMethods": [],
+      "taste": 3,
+      "servings": 1,
+      "directions": "Portion the roasted peanuts into a small bowl.",
+      "ingredients": [
+        {
+          "name": "Roasted peanuts",
+          "unit": "oz",
+          "qty": 1
+        }
+      ]
+    }
+  ],
+  "weeklySchedule": {
+    "Breakfast": "Peanut butter oatmeal",
+    "Lunch": "Rice and beans",
+    "Dinner": [
+      "Pasta and vegetables",
+      "Eggs and potatoes"
+    ]
+  }
+}
